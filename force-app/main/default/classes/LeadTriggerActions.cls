@@ -48,7 +48,7 @@ public with sharing class LeadTriggerActions {
     public static void stampDateOfContacted(Map<Id, Lead> leadNewMap, Map<Id, Lead> leadOldMap) {
 
         for (Lead leadRecord : leadNewMap.values()) {
-            if (leadOldMap.containsKey(leadRecord.Id) && leadRecord.Status == 'Contacted' && leadOldMap.get(leadRecord.Id).Status == 'New') {
+            if (leadOldMap.containsKey(leadRecord.Id) && leadRecord.Status == 'Lead' && leadOldMap.get(leadRecord.Id).Status == 'New') {
                 leadNewMap.get(leadRecord.Id).Date_in_Contacted_Status__c = Datetime.now();
             }
         }
@@ -58,7 +58,7 @@ public with sharing class LeadTriggerActions {
     public static void resetDaysInContactedField(Map<Id, Lead> leadNewMap, Map<Id, Lead> leadOldMap) {
 
         for (Lead leadRecord : leadNewMap.values()) {
-            if (leadOldMap.containsKey(leadRecord.Id) && leadRecord.Status != 'Contacted' && leadOldMap.get(leadRecord.Id).Status == 'Contacted') {
+            if (leadOldMap.containsKey(leadRecord.Id) && leadRecord.Status != 'Lead' && leadOldMap.get(leadRecord.Id).Status == 'Lead') {
                 leadNewMap.get(leadRecord.Id).Date_in_Contacted_Status__c = null;
             }
         }
