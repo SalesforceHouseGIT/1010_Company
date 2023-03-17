@@ -1,0 +1,3251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Break_Away</name>
+        <label>Break Away</label>
+        <locationX>3834</locationX>
+        <locationY>1668</locationY>
+        <actionName>emailSimple</actionName>
+        <actionType>emailSimple</actionType>
+        <connector>
+            <targetReference>Remove_Email_From_Collection</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>emailBody</name>
+            <value>
+                <elementReference>DowntownEmail03</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailAddresses</name>
+            <value>
+                <elementReference>$Record.Email</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>sendRichBody</name>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>senderAddress</name>
+            <value>
+                <elementReference>UserEmailOwnerRecordToUse.Email__c</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>senderType</name>
+            <value>
+                <stringValue>OrgWideEmailAddress</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailSubject</name>
+            <value>
+                <stringValue>Got my emails?</stringValue>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <name>Break_Away_Wilshire</name>
+        <label>Break Away Wilshire</label>
+        <locationX>3570</locationX>
+        <locationY>1668</locationY>
+        <actionName>emailSimple</actionName>
+        <actionType>emailSimple</actionType>
+        <connector>
+            <targetReference>Remove_Email_From_Collection</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>emailBody</name>
+            <value>
+                <elementReference>WilshireEmail04</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailAddresses</name>
+            <value>
+                <elementReference>$Record.Email</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>sendRichBody</name>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>senderAddress</name>
+            <value>
+                <elementReference>UserEmailOwnerRecordToUse.Email__c</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>senderType</name>
+            <value>
+                <stringValue>OrgWideEmailAddress</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailSubject</name>
+            <value>
+                <stringValue>Got my emails?</stringValue>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <name>First_Touch</name>
+        <label>First Touch</label>
+        <locationX>314</locationX>
+        <locationY>1668</locationY>
+        <actionName>emailSimple</actionName>
+        <actionType>emailSimple</actionType>
+        <connector>
+            <targetReference>Remove_Email_From_Collection</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>emailBody</name>
+            <value>
+                <elementReference>DowntownEmail01</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailAddresses</name>
+            <value>
+                <elementReference>$Record.Email</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>sendRichBody</name>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>senderAddress</name>
+            <value>
+                <elementReference>UserEmailOwnerRecordToUse.Email__c</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>senderType</name>
+            <value>
+                <stringValue>OrgWideEmailAddress</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailSubject</name>
+            <value>
+                <stringValue>Greetings from TENTEN DownTown, Neighbor!</stringValue>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <name>First_Touch_0</name>
+        <label>First Touch</label>
+        <locationX>1018</locationX>
+        <locationY>1668</locationY>
+        <actionName>emailSimple</actionName>
+        <actionType>emailSimple</actionType>
+        <connector>
+            <targetReference>Remove_Email_From_Collection</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>emailBody</name>
+            <value>
+                <elementReference>DowntownEmail01</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailAddresses</name>
+            <value>
+                <elementReference>$Record.Email</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>sendRichBody</name>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>senderAddress</name>
+            <value>
+                <elementReference>UserEmailOwnerRecordToUse.Email__c</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>senderType</name>
+            <value>
+                <stringValue>OrgWideEmailAddress</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailSubject</name>
+            <value>
+                <stringValue>Greetings from TENTEN DownTown, Neighbor!</stringValue>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <name>First_Touch_1</name>
+        <label>First Touch</label>
+        <locationX>1722</locationX>
+        <locationY>1668</locationY>
+        <actionName>emailSimple</actionName>
+        <actionType>emailSimple</actionType>
+        <connector>
+            <targetReference>Remove_Email_From_Collection</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>emailBody</name>
+            <value>
+                <elementReference>DowntownEmail01</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailAddresses</name>
+            <value>
+                <elementReference>$Record.Email</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>sendRichBody</name>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>senderAddress</name>
+            <value>
+                <elementReference>UserEmailOwnerRecordToUse.Email__c</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>senderType</name>
+            <value>
+                <stringValue>OrgWideEmailAddress</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailSubject</name>
+            <value>
+                <stringValue>Greetings from TENTEN DownTown, Neighbor!</stringValue>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <name>Follow_Up</name>
+        <label>Follow Up</label>
+        <locationX>2426</locationX>
+        <locationY>1668</locationY>
+        <actionName>emailSimple</actionName>
+        <actionType>emailSimple</actionType>
+        <connector>
+            <targetReference>Remove_Email_From_Collection</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>emailBody</name>
+            <value>
+                <elementReference>DowntownEmail02</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailAddresses</name>
+            <value>
+                <elementReference>$Record.Email</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>sendRichBody</name>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>senderAddress</name>
+            <value>
+                <elementReference>UserEmailOwnerRecordToUse.Email__c</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>senderType</name>
+            <value>
+                <stringValue>OrgWideEmailAddress</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailSubject</name>
+            <value>
+                <stringValue>Did you get what you were looking for, Neighbor?</stringValue>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <name>Follow_Up_0</name>
+        <label>Follow Up</label>
+        <locationX>3130</locationX>
+        <locationY>1668</locationY>
+        <actionName>emailSimple</actionName>
+        <actionType>emailSimple</actionType>
+        <connector>
+            <targetReference>Remove_Email_From_Collection</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>emailBody</name>
+            <value>
+                <elementReference>DowntownEmail02</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailAddresses</name>
+            <value>
+                <elementReference>$Record.Email</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>sendRichBody</name>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>senderAddress</name>
+            <value>
+                <elementReference>UserEmailOwnerRecordToUse.Email__c</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>senderType</name>
+            <value>
+                <stringValue>OrgWideEmailAddress</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailSubject</name>
+            <value>
+                <stringValue>Did you get what you were looking for, Neighbor?</stringValue>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <name>Follow_Up_Wilshire</name>
+        <label>Follow Up Wilshire</label>
+        <locationX>2162</locationX>
+        <locationY>1668</locationY>
+        <actionName>emailSimple</actionName>
+        <actionType>emailSimple</actionType>
+        <connector>
+            <targetReference>Remove_Email_From_Collection</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>emailBody</name>
+            <value>
+                <elementReference>WilshireEmail03</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailAddresses</name>
+            <value>
+                <elementReference>$Record.Email</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>sendRichBody</name>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>senderAddress</name>
+            <value>
+                <elementReference>UserEmailOwnerRecordToUse.Email__c</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>senderType</name>
+            <value>
+                <stringValue>OrgWideEmailAddress</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailSubject</name>
+            <value>
+                <stringValue>We&apos;re Still Thinking About You</stringValue>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <name>Follow_Up_Wilshire_0</name>
+        <label>Follow Up Wilshire</label>
+        <locationX>2866</locationX>
+        <locationY>1668</locationY>
+        <actionName>emailSimple</actionName>
+        <actionType>emailSimple</actionType>
+        <connector>
+            <targetReference>Remove_Email_From_Collection</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>emailBody</name>
+            <value>
+                <elementReference>WilshireEmail03</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailAddresses</name>
+            <value>
+                <elementReference>$Record.Email</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>sendRichBody</name>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>senderAddress</name>
+            <value>
+                <elementReference>UserEmailOwnerRecordToUse.Email__c</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>senderType</name>
+            <value>
+                <stringValue>OrgWideEmailAddress</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailSubject</name>
+            <value>
+                <stringValue>We&apos;re Still Thinking About You</stringValue>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <name>Formal_1st_Touch</name>
+        <label>Formal - 1st Touch</label>
+        <locationX>50</locationX>
+        <locationY>1668</locationY>
+        <actionName>emailSimple</actionName>
+        <actionType>emailSimple</actionType>
+        <connector>
+            <targetReference>Remove_Email_From_Collection</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>emailBody</name>
+            <value>
+                <elementReference>WilshireEmail01</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailAddresses</name>
+            <value>
+                <elementReference>$Record.Email</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>sendRichBody</name>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>senderAddress</name>
+            <value>
+                <elementReference>UserEmailOwnerRecordToUse.Email__c</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>senderType</name>
+            <value>
+                <stringValue>OrgWideEmailAddress</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailSubject</name>
+            <value>
+                <stringValue>Hello from TENTEN Wilshire!</stringValue>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <name>Friendly_1st_Touch</name>
+        <label>Friendly - 1st Touch</label>
+        <locationX>754</locationX>
+        <locationY>1668</locationY>
+        <actionName>emailSimple</actionName>
+        <actionType>emailSimple</actionType>
+        <connector>
+            <targetReference>Remove_Email_From_Collection</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>emailBody</name>
+            <value>
+                <elementReference>WilshireEmail02</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailAddresses</name>
+            <value>
+                <elementReference>$Record.Email</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>sendRichBody</name>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>senderAddress</name>
+            <value>
+                <elementReference>UserEmailOwnerRecordToUse.Email__c</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>senderType</name>
+            <value>
+                <stringValue>OrgWideEmailAddress</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailSubject</name>
+            <value>
+                <stringValue>Greetings from TENTEN Wilshire, Neighbor!</stringValue>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <name>Friendly_1st_Touch_0</name>
+        <label>Friendly - 1st Touch</label>
+        <locationX>1458</locationX>
+        <locationY>1668</locationY>
+        <actionName>emailSimple</actionName>
+        <actionType>emailSimple</actionType>
+        <connector>
+            <targetReference>Remove_Email_From_Collection</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>emailBody</name>
+            <value>
+                <elementReference>WilshireEmail02</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailAddresses</name>
+            <value>
+                <elementReference>$Record.Email</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>sendRichBody</name>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>senderAddress</name>
+            <value>
+                <elementReference>UserEmailOwnerRecordToUse.Email__c</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>senderType</name>
+            <value>
+                <stringValue>OrgWideEmailAddress</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailSubject</name>
+            <value>
+                <stringValue>Greetings from TENTEN Wilshire, Neighbor!</stringValue>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <apiVersion>57.0</apiVersion>
+    <assignments>
+        <name>Add_Email_of_User_to_Collection</name>
+        <label>Add Email of User to Collection</label>
+        <locationX>2459</locationX>
+        <locationY>636</locationY>
+        <assignmentItems>
+            <assignToReference>EmailCollection</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>Get_User_Email_Owner_Records.Email__c</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Assign_User_Email_Owner_Record_0</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Add_Email_To_User_Collection</name>
+        <label>Add Email To User Collection</label>
+        <locationX>2327</locationX>
+        <locationY>276</locationY>
+        <assignmentItems>
+            <assignToReference>EmailCollection</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>$Record.Email</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Has_User_Email_Owner_Info_been_retrieved</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Assign_User_Email_Owner_Record</name>
+        <label>Assign User Email Owner Record</label>
+        <locationX>2195</locationX>
+        <locationY>636</locationY>
+        <assignmentItems>
+            <assignToReference>UserEmailOwnerRecordToUse</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>currentItem_Get_User_Owner_Details</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Days_Since_Contacted</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Assign_User_Email_Owner_Record_0</name>
+        <label>Assign User Email Owner Record</label>
+        <locationX>2459</locationX>
+        <locationY>756</locationY>
+        <assignmentItems>
+            <assignToReference>UserEmailOwnerRecordToUse</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Get_User_Email_Owner_Records</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Days_Since_Contacted</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Remove_Email_From_Collection</name>
+        <label>Remove Email From Collection</label>
+        <locationX>2327</locationX>
+        <locationY>2076</locationY>
+        <assignmentItems>
+            <assignToReference>EmailCollection</assignToReference>
+            <operator>RemoveAll</operator>
+            <value>
+                <elementReference>$Record.Email</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>Get_User_Owner_Details</assignToReference>
+            <operator>RemoveAll</operator>
+            <value>
+                <elementReference>UserEmailOwnerRecordToUse</elementReference>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <collectionProcessors>
+        <name>Get_User_Owner_Details</name>
+        <elementSubtype>FilterCollectionProcessor</elementSubtype>
+        <label>Get User Owner Details</label>
+        <locationX>2195</locationX>
+        <locationY>516</locationY>
+        <assignNextValueToReference>currentItem_Get_User_Owner_Details</assignNextValueToReference>
+        <collectionProcessorType>FilterCollectionProcessor</collectionProcessorType>
+        <collectionReference>UserEmailOwnerRecords</collectionReference>
+        <conditionLogic>and</conditionLogic>
+        <conditions>
+            <leftValueReference>currentItem_Get_User_Owner_Details.Email__c</leftValueReference>
+            <operator>EqualTo</operator>
+            <rightValue>
+                <elementReference>$Record.Owner:User.Email</elementReference>
+            </rightValue>
+        </conditions>
+        <connector>
+            <targetReference>Assign_User_Email_Owner_Record</targetReference>
+        </connector>
+    </collectionProcessors>
+    <decisions>
+        <name>Days_Since_Contacted</name>
+        <label>Days Since Contacted</label>
+        <locationX>2327</locationX>
+        <locationY>972</locationY>
+        <defaultConnector>
+            <targetReference>Remove_Email_From_Collection</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default</defaultConnectorLabel>
+        <rules>
+            <name>Two</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Days_in_Contacted_Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <numberValue>2.0</numberValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Has_Phone</targetReference>
+            </connector>
+            <label>Two</label>
+        </rules>
+        <rules>
+            <name>Six</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Days_in_Contacted_Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <numberValue>6.0</numberValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Has_Phone_0</targetReference>
+            </connector>
+            <label>Six</label>
+        </rules>
+        <rules>
+            <name>Thirteen</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Days_in_Contacted_Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <numberValue>13.0</numberValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Has_Phone_1</targetReference>
+            </connector>
+            <label>Thirteen</label>
+        </rules>
+        <rules>
+            <name>TwentySeven</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Days_in_Contacted_Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <numberValue>27.0</numberValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Has_Phone_2</targetReference>
+            </connector>
+            <label>Twenty Seven</label>
+        </rules>
+        <rules>
+            <name>FiftySeven</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Days_in_Contacted_Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <numberValue>57.0</numberValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Has_Phone_3</targetReference>
+            </connector>
+            <label>Fifty Seven</label>
+        </rules>
+        <rules>
+            <name>EightySeven</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Days_in_Contacted_Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <numberValue>87.0</numberValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Has_Phone_4</targetReference>
+            </connector>
+            <label>Eighty Seven</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Has_email</name>
+        <label>Has email?</label>
+        <locationX>380</locationX>
+        <locationY>1428</locationY>
+        <defaultConnector>
+            <targetReference>Remove_Email_From_Collection</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>No</defaultConnectorLabel>
+        <rules>
+            <name>Yes_HasEmail</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Email</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Which_building</targetReference>
+            </connector>
+            <label>Yes</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Has_email_0</name>
+        <label>Has email?</label>
+        <locationX>1084</locationX>
+        <locationY>1428</locationY>
+        <defaultConnector>
+            <targetReference>Remove_Email_From_Collection</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>No</defaultConnectorLabel>
+        <rules>
+            <name>Yes_HasEmail0</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Email</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Which_building_0</targetReference>
+            </connector>
+            <label>Yes</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Has_email_1</name>
+        <label>Has email?</label>
+        <locationX>1788</locationX>
+        <locationY>1428</locationY>
+        <defaultConnector>
+            <targetReference>Remove_Email_From_Collection</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>No</defaultConnectorLabel>
+        <rules>
+            <name>Yes_HasEmail1</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Email</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Which_building_1</targetReference>
+            </connector>
+            <label>Yes</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Has_email_2</name>
+        <label>Has email?</label>
+        <locationX>2492</locationX>
+        <locationY>1428</locationY>
+        <defaultConnector>
+            <targetReference>Remove_Email_From_Collection</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>No</defaultConnectorLabel>
+        <rules>
+            <name>Yes_HasEmail2</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Email</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Which_building_2</targetReference>
+            </connector>
+            <label>Yes</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Has_email_3</name>
+        <label>Has email?</label>
+        <locationX>3196</locationX>
+        <locationY>1428</locationY>
+        <defaultConnector>
+            <targetReference>Remove_Email_From_Collection</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>No</defaultConnectorLabel>
+        <rules>
+            <name>Yes_HasEmail3</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Email</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Which_building_3</targetReference>
+            </connector>
+            <label>Yes</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Has_email_4</name>
+        <label>Has email?</label>
+        <locationX>3900</locationX>
+        <locationY>1428</locationY>
+        <defaultConnector>
+            <targetReference>Remove_Email_From_Collection</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>No</defaultConnectorLabel>
+        <rules>
+            <name>Yes_HasEmail4</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Email</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Which_building_4</targetReference>
+            </connector>
+            <label>Yes</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Has_Phone</name>
+        <label>Has Phone?</label>
+        <locationX>380</locationX>
+        <locationY>1092</locationY>
+        <defaultConnector>
+            <targetReference>Has_email</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>No</defaultConnectorLabel>
+        <rules>
+            <name>Yes_HasPhone</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Phone_1__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.SMS_Opt_Out__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Send_two_days_SMS</targetReference>
+            </connector>
+            <label>Yes</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Has_Phone_0</name>
+        <label>Has Phone?</label>
+        <locationX>1084</locationX>
+        <locationY>1092</locationY>
+        <defaultConnector>
+            <targetReference>Has_email_0</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>No</defaultConnectorLabel>
+        <rules>
+            <name>Yes_HasPhone0</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Phone_1__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.SMS_Opt_Out__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Send_six_days_SMS</targetReference>
+            </connector>
+            <label>Yes</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Has_Phone_1</name>
+        <label>Has Phone?</label>
+        <locationX>1788</locationX>
+        <locationY>1092</locationY>
+        <defaultConnector>
+            <targetReference>Has_email_1</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>No</defaultConnectorLabel>
+        <rules>
+            <name>Yes_HasPhone1</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Phone_1__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.SMS_Opt_Out__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Send_thirteen_days_SMS</targetReference>
+            </connector>
+            <label>Yes</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Has_Phone_2</name>
+        <label>Has Phone?</label>
+        <locationX>2492</locationX>
+        <locationY>1092</locationY>
+        <defaultConnector>
+            <targetReference>Has_email_2</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>No</defaultConnectorLabel>
+        <rules>
+            <name>Yes_HasPhone2</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Phone_1__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.SMS_Opt_Out__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Send_twenty_seven_days_SMS</targetReference>
+            </connector>
+            <label>Yes</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Has_Phone_3</name>
+        <label>Has Phone?</label>
+        <locationX>3196</locationX>
+        <locationY>1092</locationY>
+        <defaultConnector>
+            <targetReference>Has_email_3</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>No</defaultConnectorLabel>
+        <rules>
+            <name>Yes_HasPhone3</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Phone_1__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.SMS_Opt_Out__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Send_fifty_seven_days_SMS</targetReference>
+            </connector>
+            <label>Yes</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Has_Phone_4</name>
+        <label>Has Phone?</label>
+        <locationX>3900</locationX>
+        <locationY>1092</locationY>
+        <defaultConnector>
+            <targetReference>Has_email_4</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>No</defaultConnectorLabel>
+        <rules>
+            <name>Yes_HasPhone4</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Phone_1__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.SMS_Opt_Out__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Send_eighty_seven_days_SMS</targetReference>
+            </connector>
+            <label>Yes</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Has_User_Email_Owner_Info_been_retrieved</name>
+        <label>Has User Email Owner Info been retrieved?</label>
+        <locationX>2327</locationX>
+        <locationY>396</locationY>
+        <defaultConnector>
+            <targetReference>Get_User_Email_Owner_Records</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Info Not Retrieved</defaultConnectorLabel>
+        <rules>
+            <name>Info_Retrieved</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>EmailCollection</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <elementReference>$Record.Owner:User.Email</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Get_User_Owner_Details</targetReference>
+            </connector>
+            <label>Info Retrieved</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Which_building</name>
+        <label>Which building?</label>
+        <locationX>182</locationX>
+        <locationY>1548</locationY>
+        <defaultConnector>
+            <targetReference>First_Touch</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Downtown</defaultConnectorLabel>
+        <rules>
+            <name>Wilshire</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Building__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>TENTEN Wilshire</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Building__c</leftValueReference>
+                <operator>EqualTo</operator>
+            </conditions>
+            <connector>
+                <targetReference>Formal_1st_Touch</targetReference>
+            </connector>
+            <label>Wilshire</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Which_building_0</name>
+        <label>Which building?</label>
+        <locationX>886</locationX>
+        <locationY>1548</locationY>
+        <defaultConnector>
+            <targetReference>First_Touch_0</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Downtown</defaultConnectorLabel>
+        <rules>
+            <name>Wilshire0</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Building__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>TENTEN Wilshire</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Building__c</leftValueReference>
+                <operator>EqualTo</operator>
+            </conditions>
+            <connector>
+                <targetReference>Friendly_1st_Touch</targetReference>
+            </connector>
+            <label>Wilshire</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Which_building_1</name>
+        <label>Which building?</label>
+        <locationX>1590</locationX>
+        <locationY>1548</locationY>
+        <defaultConnector>
+            <targetReference>First_Touch_1</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Downtown</defaultConnectorLabel>
+        <rules>
+            <name>Wilshire1</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Building__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>TENTEN Wilshire</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Building__c</leftValueReference>
+                <operator>EqualTo</operator>
+            </conditions>
+            <connector>
+                <targetReference>Friendly_1st_Touch_0</targetReference>
+            </connector>
+            <label>Wilshire</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Which_building_2</name>
+        <label>Which building?</label>
+        <locationX>2294</locationX>
+        <locationY>1548</locationY>
+        <defaultConnector>
+            <targetReference>Follow_Up</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Downtown</defaultConnectorLabel>
+        <rules>
+            <name>Wilshire2</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Building__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>TENTEN Wilshire</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Building__c</leftValueReference>
+                <operator>EqualTo</operator>
+            </conditions>
+            <connector>
+                <targetReference>Follow_Up_Wilshire</targetReference>
+            </connector>
+            <label>Wilshire</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Which_building_3</name>
+        <label>Which building?</label>
+        <locationX>2998</locationX>
+        <locationY>1548</locationY>
+        <defaultConnector>
+            <targetReference>Follow_Up_0</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Downtown</defaultConnectorLabel>
+        <rules>
+            <name>Wilshire3</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Building__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>TENTEN Wilshire</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Building__c</leftValueReference>
+                <operator>EqualTo</operator>
+            </conditions>
+            <connector>
+                <targetReference>Follow_Up_Wilshire_0</targetReference>
+            </connector>
+            <label>Wilshire</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Which_building_4</name>
+        <label>Which building?</label>
+        <locationX>3702</locationX>
+        <locationY>1548</locationY>
+        <defaultConnector>
+            <targetReference>Break_Away</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Downtown</defaultConnectorLabel>
+        <rules>
+            <name>Wilshire4</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Building__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>TENTEN Wilshire</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Building__c</leftValueReference>
+                <operator>EqualTo</operator>
+            </conditions>
+            <connector>
+                <targetReference>Break_Away_Wilshire</targetReference>
+            </connector>
+            <label>Wilshire</label>
+        </rules>
+    </decisions>
+    <environments>Default</environments>
+    <interviewLabel>Scheduleflow Lead: Contacted SMS and Emails {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Scheduleflow Lead: Contacted SMS and Emails</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordCreates>
+        <name>Send_eighty_seven_days_SMS</name>
+        <label>Send eighty seven days SMS</label>
+        <locationX>3768</locationX>
+        <locationY>1212</locationY>
+        <connector>
+            <targetReference>Has_email_4</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Name</field>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>tdc_tsw__Phone_Api__c</field>
+            <value>
+                <elementReference>$Record.Phone_1__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>tdc_tsw__Related_Object_Id__c</field>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>tdc_tsw__SMS_Template__c</field>
+            <value>
+                <stringValue>a0DDn00000Jf1uVMAR</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>tdc_tsw__Sender_Number__c</field>
+            <value>
+                <stringValue>12135166036 </stringValue>
+            </value>
+        </inputAssignments>
+        <object>tdc_tsw__Scheduled_Sms__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <recordCreates>
+        <name>Send_fifty_seven_days_SMS</name>
+        <label>Send fifty seven days SMS</label>
+        <locationX>3064</locationX>
+        <locationY>1212</locationY>
+        <connector>
+            <targetReference>Has_email_3</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Name</field>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>tdc_tsw__Phone_Api__c</field>
+            <value>
+                <elementReference>$Record.Phone_1__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>tdc_tsw__Related_Object_Id__c</field>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>tdc_tsw__SMS_Template__c</field>
+            <value>
+                <stringValue>a0DDn00000Jf1H6MAJ</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>tdc_tsw__Sender_Number__c</field>
+            <value>
+                <stringValue>12135166036 </stringValue>
+            </value>
+        </inputAssignments>
+        <object>tdc_tsw__Scheduled_Sms__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <recordCreates>
+        <name>Send_six_days_SMS</name>
+        <label>Send six days SMS</label>
+        <locationX>952</locationX>
+        <locationY>1212</locationY>
+        <connector>
+            <targetReference>Has_email_0</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Name</field>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>tdc_tsw__Phone_Api__c</field>
+            <value>
+                <elementReference>$Record.Phone_1__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>tdc_tsw__Related_Object_Id__c</field>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>tdc_tsw__SMS_Template__c</field>
+            <value>
+                <stringValue>a0DDn00000Jf1H6MAJ</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>tdc_tsw__Sender_Number__c</field>
+            <value>
+                <stringValue>12135166036 </stringValue>
+            </value>
+        </inputAssignments>
+        <object>tdc_tsw__Scheduled_Sms__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <recordCreates>
+        <name>Send_thirteen_days_SMS</name>
+        <label>Send thirteen days SMS</label>
+        <locationX>1656</locationX>
+        <locationY>1212</locationY>
+        <connector>
+            <targetReference>Has_email_1</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Name</field>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>tdc_tsw__Phone_Api__c</field>
+            <value>
+                <elementReference>$Record.Phone_1__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>tdc_tsw__Related_Object_Id__c</field>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>tdc_tsw__SMS_Template__c</field>
+            <value>
+                <stringValue>a0DDn00000Jf1H6MAJ</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>tdc_tsw__Sender_Number__c</field>
+            <value>
+                <stringValue>12135166036 </stringValue>
+            </value>
+        </inputAssignments>
+        <object>tdc_tsw__Scheduled_Sms__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <recordCreates>
+        <name>Send_twenty_seven_days_SMS</name>
+        <label>Send twenty seven days SMS</label>
+        <locationX>2360</locationX>
+        <locationY>1212</locationY>
+        <connector>
+            <targetReference>Has_email_2</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Name</field>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>tdc_tsw__Phone_Api__c</field>
+            <value>
+                <elementReference>$Record.Phone_1__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>tdc_tsw__Related_Object_Id__c</field>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>tdc_tsw__SMS_Template__c</field>
+            <value>
+                <stringValue>a0DDn00000Jf1H6MAJ</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>tdc_tsw__Sender_Number__c</field>
+            <value>
+                <stringValue>12135166036 </stringValue>
+            </value>
+        </inputAssignments>
+        <object>tdc_tsw__Scheduled_Sms__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <recordCreates>
+        <name>Send_two_days_SMS</name>
+        <label>Send two days SMS</label>
+        <locationX>248</locationX>
+        <locationY>1212</locationY>
+        <connector>
+            <targetReference>Has_email</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Name</field>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>tdc_tsw__Phone_Api__c</field>
+            <value>
+                <elementReference>$Record.Phone_1__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>tdc_tsw__Related_Object_Id__c</field>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>tdc_tsw__SMS_Template__c</field>
+            <value>
+                <stringValue>a0DDn00000Jf18QMAR</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>tdc_tsw__Sender_Number__c</field>
+            <value>
+                <stringValue>12135166036 </stringValue>
+            </value>
+        </inputAssignments>
+        <object>tdc_tsw__Scheduled_Sms__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <recordLookups>
+        <name>Get_User_Email_Owner_Records</name>
+        <label>Get User Email Owner Records</label>
+        <locationX>2459</locationX>
+        <locationY>516</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Add_Email_of_User_to_Collection</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Username__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Owner:User.Username</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>Email__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Owner:User.Email</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>User_Email_Owner__mdt</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <start>
+        <locationX>2201</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Add_Email_To_User_Collection</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Status</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Lead</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Days_in_Contacted_Status__c</field>
+            <operator>GreaterThanOrEqualTo</operator>
+            <value>
+                <numberValue>2.0</numberValue>
+            </value>
+        </filters>
+        <object>Lead</object>
+        <schedule>
+            <frequency>Daily</frequency>
+            <startDate>2023-03-13</startDate>
+            <startTime>10:15:00.000Z</startTime>
+        </schedule>
+        <triggerType>Scheduled</triggerType>
+    </start>
+    <status>Active</status>
+    <textTemplates>
+        <name>DowntownEmail01</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+    &lt;title&gt;Greetings from TENTEN DownTown, Neighbor!&lt;/title&gt;
+    &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; hs-webfonts=&quot;true&quot;
+        href=&quot;https://fonts.googleapis.com/css?family=Lato|Lato:i,b,bi&quot;&gt;
+&lt;/head&gt;
+
+&lt;body style=&quot;margin: 0; display: flex; justify-content: center;&quot;&gt;
+    &lt;table style=&quot; width: 600px; border-spacing: 0; margin-top: 30px;&quot;&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;a href=&quot;https://www.1010downtown.com/&quot;&gt;
+                    &lt;img src=&quot;https://www.1010downtown.com/email/Header.jpg&quot; alt=&quot;&quot;
+                    style=&quot;width: 100%;&quot;&gt;
+                &lt;/a&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&quot;
+                padding: 10px 20px;
+                border-collapse: collapse;
+                font-family: Lato, Tahoma, sans-serif;
+                word-break: break-word;
+                line-height: 175%;
+                font-size: 15px;&quot;&gt;
+                &lt;p style=&quot;font-weight: bold; margin: 0; margin-bottom: 26.5px;&quot;&gt;
+                    Hello Neighbor!
+                &lt;/p&gt;
+                &lt;p style=&quot;font-weight: bold; margin: 0; margin-bottom: 26.5px;&quot;&gt;
+                    Welcome to TenTen Downtown!
+                &lt;/p&gt;
+                &lt;p style=&quot;margin: 0; margin-bottom: 26.5px;&quot;&gt;
+                    A brand new luxury apartment building in downtown LA.
+                &lt;/p&gt;
+                &lt;p style=&quot;margin: 0; margin-bottom: 26.5px;&quot;&gt;
+                    If you&apos;re looking for a fully furnished apartment with hardwood floors, stainless steel appliances, and gorgeous views from every angle - you&apos;re definitely in the right place!
+                &lt;/p&gt;
+                &lt;p style=&quot;margin: 0; margin-bottom: 26.5px;&quot;&gt;
+                    At &lt;a href=&quot;https://1010downtown.com/&quot; style=&quot;color: #00a4bd;&quot;&gt;TenTen Downtown&lt;/a&gt;, you will be joining a Live, Work, Play community that boasts 5-star amenities ranging from an onsite restaurant, bar, pool, theater, gym, sauna, meeting rooms, retail area, and event space...
+                &lt;/p&gt;
+                &lt;p style=&quot;margin: 0; margin-bottom: 26.5px;&quot;&gt;
+                    TenTen Downtown also has the LARGEST rooftop area in North America!
+                &lt;/p&gt;
+                &lt;p style=&quot;margin: 0; margin-bottom: 26.5px;&quot;&gt;
+                    If you&apos;re looking to create a work/life balance and have the opportunity to build 
+                    connections with like-minded entrepreneurial people, TenTen Downtown has 
+                    everything you need and so much more!
+                &lt;/p&gt;
+
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&quot;display: flex; justify-content: center;&quot;&gt;
+                &lt;a style=&quot;
+                    	background: #F4C352;
+	                    color: #FFFFFF;
+	                    border: none;
+	                    padding: 12px 18px;
+	                    font: inherit;
+	                    cursor: pointer;
+	                    outline: inherit;
+                        font-family: Lato, Tahoma, sans-serif;
+                        text-decoration: none;
+                        display: inline-block;
+                        margin: 0 auto;&quot;
+                    href=&quot;https://1010.to/tour&quot;&gt;
+                    Schedule Tour
+                &lt;/a&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&quot;
+            padding: 10px 20px;
+            border-collapse: collapse;
+            font-family: Lato, Tahoma, sans-serif;
+            word-break: break-word;
+            line-height: 175%;
+            font-size: 15px;&quot;&gt;
+
+                &lt;h2&gt;
+                    What makes us the best choice &lt;br&gt;for you?
+                &lt;/h2&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;table style=&quot;margin: 0; display: flex; justify-content: center;&quot;&gt;
+                    &lt;tr style=&quot;vertical-align: top;&quot;&gt;
+                        &lt;td style=&quot;
+                        padding: 10px 20px;
+                        border-collapse: collapse;
+                        font-family: Lato, Tahoma, sans-serif;
+                        word-break: break-word;
+                        line-height: 175%;
+                        font-size: 15px;&quot;&gt;
+                            &lt;p style=&quot;margin: 0; margin-bottom: 26.25px;&quot;&gt;
+                                During our tour I&apos;ll take you around and show you…  
+                            &lt;/p&gt;
+                            &lt;p style=&quot;margin: 0; margin-bottom: 26.25px;&quot;&gt;
+                                1) Our luxuriously furnished, all-inclusive, move-in ready, live/work suites, which come with everything included: in-unit laundry machines, linens, premium cable, high-speed internet, local phone service, water, gas, and electricity! 
+                            &lt;/p&gt;
+                            &lt;p style=&quot;margin: 0; margin-bottom: 26.25px;&quot;&gt;
+                                2) TenTen&apos;s 5-star, resort-inspired and Instagram-worthy amenities such as our award-winning rooftop with a pool and panoramic views of DTLA, Hollywood and the ocean, 24h Gym, Full-Service Spa, Lounge area, on-sire bar, barbecue, and more! 
+                            &lt;/p&gt;
+                            &lt;p style=&quot;margin: 0; margin-bottom: 26.25px;&quot;&gt;
+                                3) Our unparalleled conference rooms, board rooms, event spaces, lobby business directory, and feature-rich business center. 
+                            &lt;/p&gt;
+                            &lt;p style=&quot;margin: 0; margin-bottom: 26.25px;&quot;&gt;
+                                4) The 24-hour valet, garage parking, and courtesy patrol which make your stay here convenient and safe. 
+                            &lt;/p&gt;
+                            &lt;p style=&quot;margin: 0; margin-bottom: 26.25px;&quot;&gt;
+                                5) And our small “perks” like open-air billiards, foosball, ping pong tables, and barbecue area there to make your “Live, Work &amp; Play” experience unforgettable. 
+                            &lt;/p&gt;
+                            &lt;p style=&quot;margin: 0; margin-bottom: 26.25px;&quot;&gt;
+                                You get all of this situated at a majestic high-rise at the perfect center of Los Angeles and surrounded by world-class stores, Michelin star restaurants and one-of-a-kind beaches…
+                            &lt;/p&gt;
+                            &lt;p style=&quot;margin: 0; margin-bottom: 26.25px;&quot;&gt;
+                                Everything above is included in our simplified monthly prices starting at… 
+                            &lt;/p&gt;
+
+                            &lt;ul style=&quot;font-weight: bold; line-height: 200%;&quot;&gt;
+                                &lt;li&gt;Studios - $2,930&lt;/li&gt;
+                                &lt;li&gt;1 Bedroom Suites - $3,290&lt;/li&gt;
+                                &lt;li&gt;2 Bedroom Suites - $3,554&lt;/li&gt;
+                                &lt;li&gt;3 Bedroom Suites - $5,100&lt;/li&gt;
+                            &lt;/ul&gt;
+                        &lt;/td&gt;
+                        &lt;td&gt;
+                            &lt;table style=&quot;width: 200px;&quot;&gt;
+                                &lt;tbody&gt;
+                                    &lt;tr&gt;
+                                        &lt;td style=&quot;padding: 10px 20px;&quot;&gt;
+                                            &lt;img src=&quot;https://www.1010downtown.com/email/untitled-50-2.jpg&quot; alt=&quot;&quot; style=&quot;width: 100%;&quot;&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td style=&quot;padding: 10px 20px;&quot;&gt;
+                                            &lt;img src=&quot;https://www.1010downtown.com/email/untitled-61-2 2.jpg&quot; alt=&quot;&quot; style=&quot;width: 100%;&quot;&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td style=&quot;padding: 10px 20px;&quot;&gt;
+                                            &lt;img src=&quot;https://www.1010downtown.com/email/Downtown_Photoshopped.jpg&quot; alt=&quot;&quot; style=&quot;width: 100%;&quot;&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td style=&quot;padding: 10px 20px;&quot;&gt;
+                                            &lt;img src=&quot;https://www.1010downtown.com/email/untitled-78-2.jpg&quot; alt=&quot;&quot; style=&quot;width: 100%;&quot;&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td style=&quot;padding: 10px 20px;&quot;&gt;
+                                            &lt;img src=&quot;https://www.1010downtown.com/email/untitled-51-2.jpg&quot; alt=&quot;&quot; style=&quot;width: 100%;&quot;&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                &lt;/tbody&gt;
+                            &lt;/table&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/table&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&quot;text-align: center; font-family: Lato, Tahoma, sans-serif;&quot;&gt;
+                &lt;h2 style=&quot;line-height: 175%; font-size: 22px; margin: 0; margin-bottom: 26.5px;&quot;&gt;
+                    Are you ready to experience the pinnacle of live/work&lt;br&gt; apartment lifestyle?
+                &lt;/h2&gt;
+                &lt;h2 style=&quot;line-height: 175%; font-size: 22px; margin: 0;&quot;&gt;
+                    Call us at 866-327-3190, or click below to book a tour&lt;br&gt; with a leasing agent today!
+                &lt;/h2&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&quot;display: flex; justify-content: center; padding: 10px 20px;&quot;&gt;
+                &lt;a  href=&quot;https://1010.to/tour&quot;
+                    style=&quot;
+                    	background: #F4C352;
+	                    color: #FFFFFF;
+	                    border: none;
+	                    padding: 12px 18px;
+	                    font: inherit;
+	                    cursor: pointer;
+	                    outline: inherit;
+                        text-decoration: none;
+                        font-family: Lato, Tahoma, sans-serif;
+                        display: inline-block;
+                        margin: 0 auto;
+                &quot;&gt;
+                    Schedule Tour
+                &lt;/a&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&quot;
+                text-align: center;
+                font-family: Lato, Tahoma, sans-serif;
+                line-height: 175%;
+                font-size: 15px;
+                padding: 10px 20px;&quot;&gt;
+                &lt;p style=&quot;margin: 0;&quot;&gt;
+                    Warm regards,&lt;br&gt;{!UserEmailOwnerRecordToUse.MasterLabel}
+                &lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&quot;border-top: 1pt solid #333333; padding: 10px 20px;&quot;&gt;
+                &lt;img src=&quot;https://www.1010downtown.com/email/tenten-photoshopped.jpg&quot; alt=&quot;&quot; style=&quot;width: 100%;&quot;&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr align=&quot;center&quot;&gt;
+            &lt;td&gt;
+                &lt;table style=&quot;border-spacing: 0 !important; border-collapse: collapse;&quot;&gt;
+                    &lt;tbody&gt;
+                        &lt;tr&gt;
+                            &lt;td style=&quot;padding: 8px 5px;&quot;&gt;
+                                &lt;a href=&quot;https://www.facebook.com/1010Wilshire/&quot;&gt;
+                                    &lt;img src=&quot;https://www.1010downtown.com/email/facebook_original_black.png&quot;
+                                        alt=&quot;&quot; style=&quot;height: 24px !important;&quot;&gt;
+                                &lt;/a&gt;
+                            &lt;/td&gt;
+                            &lt;td style=&quot;padding: 8px 5px;&quot;&gt;
+                                &lt;a href=&quot;https://www.linkedin.com/feed/&quot;&gt;
+                                    &lt;img src=&quot;https://www.1010downtown.com/email/linkedin_original_black.png&quot;
+                                        alt=&quot;&quot; style=&quot;height: 24px !important;&quot;&gt;
+                                &lt;/a&gt;
+                            &lt;/td&gt;
+                            &lt;td style=&quot;padding: 8px 5px;&quot;&gt;
+                                &lt;a href=&quot;https://twitter.com/TenTenDowntown&quot;&gt;
+                                    &lt;img src=&quot;https://www.1010downtown.com/email/twitter_original_black.png&quot;
+                                        alt=&quot;&quot; style=&quot;height: 24px !important;&quot;&gt;
+                                &lt;/a&gt;
+                            &lt;/td&gt;
+                            &lt;td style=&quot;padding: 8px 5px;&quot;&gt;
+                                &lt;a href=&quot;https://www.instagram.com/tentenwilshire/?hl=en&quot;&gt;
+                                    &lt;img src=&quot;https://www.1010downtown.com/email/instagram_original_black.png&quot;
+                                        alt=&quot;&quot; style=&quot;height: 24px !important;&quot;&gt;
+                                &lt;/a&gt;
+                            &lt;/td&gt;
+                        &lt;/tr&gt;
+                    &lt;/tbody&gt;
+                &lt;/table&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&quot;text-align: center; line-height: 135%; padding: 10px 20px 30px 20px;&quot;&gt;
+                &lt;p style=&quot;
+                    font-family: Arial, sans-serif;
+                    font-size: 12px;
+                    font-weight: normal;
+                    text-decoration: none;
+                    font-style: normal;
+                    color: #23496d;
+                    margin: 0;&quot;&gt;
+                    TenTen Wilshire &amp; Downtown, 1010 &amp; 1027 Wilshire Blvd, Los Angeles, CA 90017, USA, (877) 338-1010
+                &lt;/p&gt;
+                &lt;p style=&quot;margin: 0;&quot;&gt;
+                    &lt;a href=&quot;&quot; style=&quot;
+                    font-family: Helvetica,Arial,sans-serif;
+                    font-size: 12px;
+                    color: #00a4bd;
+                    font-weight: normal;
+                    text-decoration: underline;
+                    font-style: normal;
+                        &quot;&gt;
+                        Unsubscribe
+                    &lt;/a&gt;
+                    &lt;a href=&quot;&quot; style=&quot;
+                    font-family: Helvetica,Arial,sans-serif;
+                    font-size: 12px;
+                    color: #00a4bd;
+                    font-weight: normal;
+                    text-decoration: underline;
+                    font-style: normal;
+                        &quot;&gt;
+                        Manage preferences
+                    &lt;/a&gt;
+                &lt;/p&gt;
+
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/table&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;</text>
+    </textTemplates>
+    <textTemplates>
+        <name>DowntownEmail02</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+    &lt;title&gt;did you get what you were looking for, Neighbor?&lt;/title&gt;
+    &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; hs-webfonts=&quot;true&quot;
+        href=&quot;https://fonts.googleapis.com/css?family=Lato|Lato:i,b,bi&quot;&gt;
+&lt;/head&gt;
+
+&lt;body style=&quot;margin: 0; display: flex; justify-content: center;&quot;&gt;
+    &lt;table style=&quot; width: 600px; border-spacing: 0; margin-top: 30px;&quot;&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;a href=&quot;https://www.1010downtown.com/&quot;&gt;
+                    &lt;img src=&quot;https://www.1010downtown.com/email/Header.jpg&quot; alt=&quot;&quot;
+                    style=&quot;width: 100%;&quot;&gt;
+                &lt;/a&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&quot;
+                padding: 10px 20px;
+                border-collapse: collapse;
+                font-family: Lato, Tahoma, sans-serif;
+                word-break: break-word;
+                line-height: 175%;
+                font-size: 15px;&quot;&gt;
+                &lt;p style=&quot;font-weight: bold; margin: 0; margin-bottom: 26.5px;&quot;&gt;
+                    Hi Neighbor,
+                &lt;/p&gt;
+                &lt;p style=&quot;margin: 0; margin-bottom: 26.5px;&quot;&gt;
+                    The world around us is constantly changing, so it makes sense for your living situation to catch up with the times, right?
+                &lt;/p&gt;
+                &lt;p style=&quot;margin: 0; margin-bottom: 26.5px;&quot;&gt;
+                    At &lt;a href=&quot;&quot; style=&quot;color: #00a4bd;&quot;&gt;TenTen Downtown&lt;/a&gt;, long gone are the days of sacrificing cost, comfort, or quality - this luxury apartment building combines the perfect blend for new-age living.
+                &lt;/p&gt;
+                &lt;p style=&quot;margin: 0; margin-bottom: 26.5px;&quot;&gt;
+                    With beautiful apartments plus ample opportunities for networking events, mixers, creative brainstorms, and more – you really can have it all at TenTen Downtown.
+                &lt;/p&gt;
+                &lt;p style=&quot;margin: 0; margin-bottom: 26.5px;&quot;&gt;
+                    What can you expect with our move-in-ready apartments?
+                &lt;/p&gt;
+                &lt;p style=&quot;margin: 0; margin-bottom: 26.5px;&quot;&gt;
+                    - &lt;strong&gt;Sweeping views&lt;/strong&gt; of Downtown Los Angeles &lt;br&gt;
+                    - 2 acres of &lt;strong&gt;rooftop space&lt;/strong&gt; that&apos;s perfect for hosting events &lt;br&gt;
+                    - Ground floor  &lt;strong&gt;&lt;/strong&gt;retail units for all your shopping needs &lt;br&gt;
+                    - Secure &lt;strong&gt;&lt;/strong&gt;Garage parking and &lt;strong&gt;&lt;/strong&gt;pet-friendly suites are available &lt;br&gt;
+                    - Convenient access to a &lt;strong&gt;gym, sauna, steam room&lt;/strong&gt;, and &lt;strong&gt;pool&lt;/strong&gt; &lt;br&gt;
+                    - All apartments are &lt;strong&gt;fully furnished&lt;/strong&gt; and equipped with linens &lt;br&gt;
+                    - High-end stainless &lt;strong&gt;steel appliances&lt;/strong&gt; and CaesarStone counters &lt;br&gt;
+                    There is nothing more you could want in a luxury apartment in the heart of &lt;br&gt;
+                    Downtown LA.
+                &lt;/p&gt;
+
+
+                &lt;p style=&quot;margin: 0; text-align: center; margin-bottom: 26.5px;&quot;&gt;
+                    There is nothing more you could want in a luxury apartment in the heart of&lt;br&gt; Downtown LA.
+                &lt;/p&gt;
+                &lt;p style=&quot;margin: 0; text-align: center; margin-bottom: 26.5px;&quot;&gt;
+                    &lt;strong&gt;Reply&lt;/strong&gt; to this email, &lt;a href=&quot;https://1010.to/tour&quot; style=&quot;color: #00a4bd;&quot;&gt;book a tour right now&lt;/a&gt;, or call/text our leasing agent today at 866-327-3190 to schedule your tour. 
+                &lt;/p&gt;
+                &lt;p style=&quot;margin: 0; text-align: center; margin-bottom: 26.5px;&quot;&gt;
+                    P.S. All TenTen Live/Work units are 67% tax-deductible.
+                &lt;/p&gt;
+
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&quot;
+                text-align: center;
+                font-family: Lato, Tahoma, sans-serif;
+                line-height: 175%;
+                font-size: 15px;
+                padding: 10px 20px;&quot;&gt;
+                &lt;p style=&quot;margin: 0;&quot;&gt;
+                    Warm regards,&lt;br&gt;{!UserEmailOwnerRecordToUse.MasterLabel} 
+                &lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&quot;border-top: 1pt solid #333333; padding: 10px 20px;&quot;&gt;
+                &lt;img src=&quot;https://www.1010downtown.com/email/tenten-photoshopped.jpg&quot; alt=&quot;&quot; style=&quot;width: 100%;&quot;&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr align=&quot;center&quot;&gt;
+            &lt;td&gt;
+                &lt;table style=&quot;border-spacing: 0 !important; border-collapse: collapse;&quot;&gt;
+                    &lt;tbody&gt;
+                        &lt;tr&gt;
+                            &lt;td style=&quot;padding: 8px 5px;&quot;&gt;
+                                &lt;a href=&quot;https://www.facebook.com/1010Wilshire/&quot;&gt;
+                                    &lt;img src=&quot;https://www.1010downtown.com/email/facebook_original_black.png&quot;
+                                        alt=&quot;&quot; style=&quot;height: 24px !important;&quot;&gt;
+                                &lt;/a&gt;
+                            &lt;/td&gt;
+                            &lt;td style=&quot;padding: 8px 5px;&quot;&gt;
+                                &lt;a href=&quot;https://www.linkedin.com/feed/&quot;&gt;
+                                    &lt;img src=&quot;https://www.1010downtown.com/email/linkedin_original_black.png&quot;
+                                        alt=&quot;&quot; style=&quot;height: 24px !important;&quot;&gt;
+                                &lt;/a&gt;
+                            &lt;/td&gt;
+                            &lt;td style=&quot;padding: 8px 5px;&quot;&gt;
+                                &lt;a href=&quot;https://twitter.com/TenTenDowntown&quot;&gt;
+                                    &lt;img src=&quot;https://www.1010downtown.com/email/twitter_original_black.png&quot;
+                                        alt=&quot;&quot; style=&quot;height: 24px !important;&quot;&gt;
+                                &lt;/a&gt;
+                            &lt;/td&gt;
+                            &lt;td style=&quot;padding: 8px 5px;&quot;&gt;
+                                &lt;a href=&quot;https://www.instagram.com/tentenwilshire/?hl=en&quot;&gt;
+                                    &lt;img src=&quot;https://www.1010downtown.com/email/instagram_original_black.png&quot;
+                                        alt=&quot;&quot; style=&quot;height: 24px !important;&quot;&gt;
+                                &lt;/a&gt;
+                            &lt;/td&gt;
+                        &lt;/tr&gt;
+                    &lt;/tbody&gt;
+                &lt;/table&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&quot;text-align: center; line-height: 135%; padding: 10px 20px 30px 20px;&quot;&gt;
+                &lt;p style=&quot;
+                    font-family: Arial, sans-serif;
+                    font-size: 12px;
+                    font-weight: normal;
+                    text-decoration: none;
+                    font-style: normal;
+                    color: #23496d;
+                    margin: 0;&quot;&gt;
+                    TenTen Wilshire &amp; Downtown, 1010 &amp; 1027 Wilshire Blvd, Los Angeles, CA 90017, USA, (877) 338-1010
+                &lt;/p&gt;
+                &lt;p style=&quot;margin: 0;&quot;&gt;
+                    &lt;a href=&quot;&quot; style=&quot;
+                    font-family: Helvetica,Arial,sans-serif;
+                    font-size: 12px;
+                    color: #00a4bd;
+                    font-weight: normal;
+                    text-decoration: underline;
+                    font-style: normal;
+                        &quot;&gt;
+                        Unsubscribe
+                    &lt;/a&gt;
+                    &lt;a href=&quot;&quot; style=&quot;
+                    font-family: Helvetica,Arial,sans-serif;
+                    font-size: 12px;
+                    color: #00a4bd;
+                    font-weight: normal;
+                    text-decoration: underline;
+                    font-style: normal;
+                        &quot;&gt;
+                        Manage preferences
+                    &lt;/a&gt;
+                &lt;/p&gt;
+
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/table&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;</text>
+    </textTemplates>
+    <textTemplates>
+        <name>DowntownEmail03</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+    &lt;title&gt;got my emails?&lt;/title&gt;
+    &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; hs-webfonts=&quot;true&quot;
+        href=&quot;https://fonts.googleapis.com/css?family=Lato|Lato:i,b,bi&quot;&gt;
+&lt;/head&gt;
+
+&lt;body style=&quot;margin: 0; display: flex; justify-content: center;&quot;&gt;
+    &lt;table style=&quot; width: 600px; border-spacing: 0; margin-top: 30px;&quot;&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;a href=&quot;https://www.1010downtown.com/&quot;&gt;
+                    &lt;img src=&quot;https://www.1010downtown.com/email/Header.jpg&quot; alt=&quot;&quot;
+                    style=&quot;width: 100%;&quot;&gt;
+                &lt;/a&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&quot;
+                padding: 10px 20px;
+                border-collapse: collapse;
+                font-family: Lato, Tahoma, sans-serif;
+                word-break: break-word;
+                line-height: 175%;
+                font-size: 15px;&quot;&gt;
+                &lt;p style=&quot;font-weight: bold; margin: 0; margin-bottom: 26.5px;&quot;&gt;
+                    Hey Neighbor,
+                &lt;/p&gt;
+
+                &lt;p style=&quot;margin: 0; margin-bottom: 26.5px;&quot;&gt;
+                    TenTen Downtown will suit your every need...
+                &lt;/p&gt;
+                &lt;p style=&quot;margin: 0; margin-bottom: 26.5px;&quot;&gt;
+                    Whether you want a studio or multiple bedrooms, a place to host events or business meetings, or you
+                    want to relax or talk deals – you can do it all at &lt;a href=&quot;https://1010downtown.com/&quot; style=&quot;color: #00a4bd;&quot;&gt;TenTen
+                        Downtown&lt;/a&gt;.
+                &lt;/p&gt;
+                &lt;p style=&quot;margin: 0; margin-bottom: 26.5px;&quot;&gt;
+                    You can choose your floorplan and your lease length – we offer flexible terms with no minimum
+                    commitment.
+                &lt;/p&gt;
+                &lt;p style=&quot;margin: 0; margin-bottom: 26.25px;&quot;&gt;
+                    Everything is included in our simplified monthly prices starting at…
+                &lt;/p&gt;
+                &lt;p style=&quot;margin: 0; text-align: center; font-weight: bold; margin-bottom: 26.5px;&quot;&gt;
+                    Studios - $2,930&lt;br&gt;
+                    1 Bedroom Suites - $3,290&lt;br&gt;
+                    2 Bedroom Suites - $3,554&lt;br&gt;
+                    3 Bedroom Suites - $5,100&lt;br&gt;
+                &lt;/p&gt;
+                &lt;p style=&quot;margin: 0; margin-bottom: 26.5px;&quot;&gt;
+                    With so many options and the ability to live, work and play all in one place, TenTen Downtown is the
+                    ultimate choice for your future home.
+                &lt;/p&gt;
+                &lt;p style=&quot;margin: 0; margin-bottom: 26.5px;&quot;&gt;
+                    Contact our leasing agent at 866-327-3190 or &lt;a href=&quot;https://1010.to/tour&quot; style=&quot;color: #00a4bd;&quot;&gt;click
+                        here&lt;/a&gt; to book a tour with one of
+                    our friendly agents today!.
+                &lt;/p&gt;
+                &lt;p style=&quot;margin: 0; margin-bottom: 26.5px;&quot;&gt;
+                    What are you waiting for?
+                &lt;/p&gt;
+                &lt;p style=&quot;margin: 0; margin-bottom: 26.5px;&quot;&gt;
+                    Units are going fast, especially with our unbeatable offer of providing your first 2.5 months rent-free!
+                &lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&quot;
+                text-align: left;
+                font-family: Lato, Tahoma, sans-serif;
+                line-height: 175%;
+                font-size: 15px;
+                padding: 10px 20px;&quot;&gt;
+                &lt;p style=&quot;margin: 0;&quot;&gt;
+                    Warm regards,&lt;br&gt;
+                    {!UserEmailOwnerRecordToUse.MasterLabel} 
+                &lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&quot;border-top: 1pt solid #333333; padding: 10px 20px;&quot;&gt;
+                &lt;img src=&quot;https://www.1010downtown.com/email/tenten-photoshopped.jpg&quot; alt=&quot;&quot; style=&quot;width: 100%;&quot;&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr align=&quot;center&quot;&gt;
+            &lt;td&gt;
+                &lt;table style=&quot;border-spacing: 0 !important; border-collapse: collapse;&quot;&gt;
+                    &lt;tbody&gt;
+                        &lt;tr&gt;
+                            &lt;td style=&quot;padding: 8px 5px;&quot;&gt;
+                                &lt;a href=&quot;https://www.facebook.com/1010Wilshire/&quot;&gt;
+                                    &lt;img src=&quot;https://www.1010downtown.com/email/facebook_original_black.png&quot;
+                                        alt=&quot;&quot; style=&quot;height: 24px !important;&quot;&gt;
+                                &lt;/a&gt;
+                            &lt;/td&gt;
+                            &lt;td style=&quot;padding: 8px 5px;&quot;&gt;
+                                &lt;a href=&quot;https://www.linkedin.com/feed/&quot;&gt;
+                                    &lt;img src=&quot;https://www.1010downtown.com/email/linkedin_original_black.png&quot;
+                                        alt=&quot;&quot; style=&quot;height: 24px !important;&quot;&gt;
+                                &lt;/a&gt;
+                            &lt;/td&gt;
+                            &lt;td style=&quot;padding: 8px 5px;&quot;&gt;
+                                &lt;a href=&quot;https://twitter.com/TenTenDowntown&quot;&gt;
+                                    &lt;img src=&quot;https://www.1010downtown.com/email/twitter_original_black.png&quot;
+                                        alt=&quot;&quot; style=&quot;height: 24px !important;&quot;&gt;
+                                &lt;/a&gt;
+                            &lt;/td&gt;
+                            &lt;td style=&quot;padding: 8px 5px;&quot;&gt;
+                                &lt;a href=&quot;https://www.instagram.com/tentenwilshire/?hl=en&quot;&gt;
+                                    &lt;img src=&quot;https://www.1010downtown.com/email/instagram_original_black.png&quot;
+                                        alt=&quot;&quot; style=&quot;height: 24px !important;&quot;&gt;
+                                &lt;/a&gt;
+                            &lt;/td&gt;
+                        &lt;/tr&gt;
+                    &lt;/tbody&gt;
+                &lt;/table&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&quot;text-align: center; line-height: 135%; padding: 10px 20px 30px 20px;&quot;&gt;
+                &lt;p style=&quot;
+                    font-family: Arial, sans-serif;
+                    font-size: 12px;
+                    font-weight: normal;
+                    text-decoration: none;
+                    font-style: normal;
+                    color: #23496d;
+                    margin: 0;&quot;&gt;
+                    TenTen Wilshire &amp; Downtown, 1010 &amp; 1027 Wilshire Blvd, Los Angeles, CA 90017, USA, (877) 338-1010
+                &lt;/p&gt;
+                &lt;p style=&quot;margin: 0;&quot;&gt;
+                    &lt;a href=&quot;&quot; style=&quot;
+                    font-family: Helvetica,Arial,sans-serif;
+                    font-size: 12px;
+                    color: #00a4bd;
+                    font-weight: normal;
+                    text-decoration: underline;
+                    font-style: normal;
+                        &quot;&gt;
+                        Unsubscribe
+                    &lt;/a&gt;
+                    &lt;a href=&quot;&quot; style=&quot;
+                    font-family: Helvetica,Arial,sans-serif;
+                    font-size: 12px;
+                    color: #00a4bd;
+                    font-weight: normal;
+                    text-decoration: underline;
+                    font-style: normal;
+                        &quot;&gt;
+                        Manage preferences
+                    &lt;/a&gt;
+                &lt;/p&gt;
+
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/table&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;</text>
+    </textTemplates>
+    <textTemplates>
+        <name>WilshireEmail01</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+    &lt;title&gt;Hello from TENTEN Wilshire!&lt;/title&gt;
+    &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; hs-webfonts=&quot;true&quot;
+        href=&quot;https://fonts.googleapis.com/css?family=Lato|Lato:i,b,bi&quot;&gt;
+&lt;/head&gt;
+
+&lt;body style=&quot;margin: 0; display: flex; justify-content: center;&quot;&gt;
+    &lt;table style=&quot; width: 600px; border-spacing: 0; margin-top: 30px;&quot;&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;a href=&quot;https://1010wilshire.com/&quot;&gt;
+                    &lt;img src=&quot;https://www.1010wilshire.com/email/Header.jpg&quot; alt=&quot;&quot;
+                        style=&quot;width: 100%;&quot;&gt;
+                &lt;/a&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&quot;
+                padding: 10px 20px;
+                border-collapse: collapse;
+                font-family: Lato, Tahoma, sans-serif;
+                word-break: break-word;
+                line-height: 175%;
+                font-size: 15px;&quot;&gt;
+                &lt;p style=&quot;font-weight: bold; margin: 0; margin-bottom: 26.5px;&quot;&gt;
+                    Hello Neighbor!
+                &lt;/p&gt;
+                &lt;p style=&quot;font-weight: bold; margin: 0; margin-bottom: 26.5px;&quot;&gt;
+                    Thank you for inquiring for an apartment at TENTEN Wilshire!
+                &lt;/p&gt;
+                &lt;p style=&quot;margin: 0;&quot;&gt;
+                    My name is {!UserEmailOwnerRecordToUse.MasterLabel}. I&apos;m here to ensure you have an unforgettable experience with us and our
+                    “live, work &amp; play” ecosystem.
+                &lt;/p&gt;
+                &lt;p style=&quot;margin: 0;&quot;&gt;
+                    So if you have any questions or requests, you can simply reach out to me at &lt;a
+                        href=&quot;mailto:{!UserEmailOwnerRecordToUse.Email__c}&quot;&gt;{!UserEmailOwnerRecordToUse.Email__c}&lt;/a&gt; or give me a call at {!UserEmailOwnerRecordToUse.Phone_Number__c}.
+                &lt;/p&gt;
+                &lt;p style=&quot;margin: 0;&quot;&gt;
+                    And if you need me to take you on a tour around our unrivaled DTLA location, just click the button
+                    below and schedule your visit.
+                &lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&quot;display: flex; justify-content: center;&quot;&gt;
+                &lt;a
+                style=&quot;
+                    	background: #F4C352;
+	                    color: #FFFFFF;
+	                    border: none;
+	                    padding: 12px 18px;
+	                    font: inherit;
+	                    cursor: pointer;
+	                    outline: inherit;
+                        display: inline-block;
+                        margin: 0 auto;
+                        text-decoration: none;
+                        &quot;
+                href=&quot;https://1010.to/tour&quot;
+                &gt;
+                    Schedule Tour
+                &lt;/a&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&quot;
+            padding: 10px 20px;
+            border-collapse: collapse;
+            font-family: Lato, Tahoma, sans-serif;
+            word-break: break-word;
+            line-height: 175%;
+            font-size: 15px;&quot;&gt;
+
+                &lt;h2&gt;
+                    What makes us the best choice &lt;br&gt;for you?
+                &lt;/h2&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;table style=&quot;margin: 0; display: flex; justify-content: center;&quot;&gt;
+                    &lt;tr style=&quot;vertical-align: top;&quot;&gt;
+                        &lt;td style=&quot;
+                        padding: 10px 20px;
+                        border-collapse: collapse;
+                        font-family: Lato, Tahoma, sans-serif;
+                        word-break: break-word;
+                        line-height: 175%;
+                        font-size: 15px;&quot;&gt;
+                            &lt;p style=&quot;margin: 0; margin-bottom: 26.25px;&quot;&gt;
+                                1) TENTEN&apos;s work/live suites are fully furnished and they come with everything you&apos;ll
+                                ever need - including in-unit laundry machines, cable TV, 100Mbps wired and wireless
+                                internet, local phone service, water, gas, and electricity (all inclusive).
+                            &lt;/p&gt;
+                            &lt;p style=&quot;margin: 0; margin-bottom: 26.25px;&quot;&gt;
+                                2) You also get unlimited access to our unparalleled leisure amenities like our amazing
+                                rooftop with a pool, 24h high-tech gym, SPA center, jacuzzi, lounge, barbecue area and
+                                more…
+                            &lt;/p&gt;
+                            &lt;p style=&quot;margin: 0; margin-bottom: 26.25px;&quot;&gt;
+                                3) You get access to our theater room, movie theater, game rooms, and regularly
+                                scheduled rooftop events.
+                            &lt;/p&gt;
+                            &lt;p style=&quot;margin: 0; margin-bottom: 26.25px;&quot;&gt;
+                                4) You also get to enjoy our small perks like open-air billiard, foosball, ping pong,
+                                and cozy fire pits for long and stimulating talks.
+                            &lt;/p&gt;
+                            &lt;p style=&quot;margin: 0; margin-bottom: 26.25px;&quot;&gt;
+                                All of that is situated at the perfect center of downtown LA, at a walking distance from
+                                Michelin star restaurants and word-class event venues. I think you&apos;re going to LOVE the
+                                exclusive atmosphere and amenities TENTEN Wilshire has to offer.
+                            &lt;/p&gt;
+                            &lt;p style=&quot;margin: 0; margin-bottom: 26.25px;&quot;&gt;
+                                Especially considering our pricing, which starts at just…
+                            &lt;/p&gt;
+
+                            &lt;ul style=&quot;font-weight: bold; line-height: 200%;&quot;&gt;
+                                &lt;li&gt;Studios - $3,119&lt;/li&gt;
+                                &lt;li&gt;1 Bedroom Suites - $3,463&lt;/li&gt;
+                                &lt;li&gt;2 Bedroom Suites - $3,965&lt;/li&gt;
+                                &lt;li&gt;Two Story Lofts - $5,140&lt;/li&gt;
+                                &lt;li&gt;3 Bedroom Suites - $5,470&lt;/li&gt;
+                            &lt;/ul&gt;
+                        &lt;/td&gt;
+                        &lt;td&gt;
+                            &lt;table style=&quot;width: 200px;&quot;&gt;
+                                &lt;tbody&gt;
+                                    &lt;tr&gt;
+                                        &lt;td style=&quot;padding: 10px 20px;&quot;&gt;
+                                            &lt;img src=&quot;https://www.1010wilshire.com/email/GPF_5517 (1).jpg&quot; alt=&quot;&quot; style=&quot;width: 100%;&quot;&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td style=&quot;padding: 10px 20px;&quot;&gt;
+                                            &lt;img src=&quot;https://www.1010wilshire.com/email/untitled-41-2.jpg&quot; alt=&quot;&quot; style=&quot;width: 100%;&quot;&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td style=&quot;padding: 10px 20px;&quot;&gt;
+                                            &lt;img src=&quot;https://www.1010wilshire.com/email/untitled-42.jpg&quot; alt=&quot;&quot; style=&quot;width: 100%;&quot;&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td style=&quot;padding: 10px 20px;&quot;&gt;
+                                            &lt;img src=&quot;https://www.1010wilshire.com/email/GPF_7309.jpg&quot; alt=&quot;&quot; style=&quot;width: 100%;&quot;&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td style=&quot;padding: 10px 20px;&quot;&gt;
+                                            &lt;img src=&quot;https://www.1010wilshire.com/email/GPF_5540.jpg&quot; alt=&quot;&quot; style=&quot;width: 100%;&quot;&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                &lt;/tbody&gt;
+                            &lt;/table&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/table&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&quot;text-align: center; font-family: Lato, Tahoma, sans-serif;&quot;&gt;
+                &lt;h2 style=&quot;line-height: 175%; font-size: 20px; margin: 0;&quot;&gt;
+                    Interested in the TENTEN Wilshire experience?
+                &lt;/h2&gt;
+                &lt;h2 style=&quot;line-height: 175%; font-size: 20px; margin: 0;&quot;&gt;
+                    Then click the button below to schedule a free tour now!
+                &lt;/h2&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&quot;display: flex; justify-content: center; padding: 10px 20px;&quot;&gt;
+                &lt;a style=&quot;
+                    	background: #F4C352;
+	                    color: #FFFFFF;
+	                    border: none;
+	                    padding: 12px 18px;
+	                    font: inherit;
+	                    cursor: pointer;
+	                    outline: inherit;
+                        display: inline-block;
+                        margin: 0 auto;
+                        text-decoration: none;&quot;
+                    href=&quot;https://1010.to/tour&quot;
+                    &gt;
+                    Schedule Tour
+                &lt;/a&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&quot;
+                text-align: center;
+                font-family: Lato, Tahoma, sans-serif;
+                line-height: 175%;
+                font-size: 15px;
+                padding: 10px 20px;&quot;&gt;
+                &lt;p style=&quot;margin: 0;&quot;&gt;
+                    {!UserEmailOwnerRecordToUse.MasterLabel} from TENTEN Wilshire
+                &lt;/p&gt;
+                &lt;p style=&quot;margin: 0;&quot;&gt;
+                    &lt;span style=&quot;font-weight: bold;&quot;&gt;P.S.&lt;/span&gt; Oh, and did I mention we&apos;ve also got some celebrities
+                    living here? But don&apos;t tell anyone though…
+                &lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&quot;border-top: 1pt solid #333333; padding: 10px 20px;&quot;&gt;
+                &lt;img src=&quot;https://www.1010wilshire.com/email/GPF_5302.jpg&quot; alt=&quot;&quot;
+                    style=&quot;width: 100%;&quot;&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr align=&quot;center&quot;&gt;
+            &lt;td&gt;
+                &lt;table style=&quot;border-spacing: 0 !important; border-collapse: collapse;&quot;&gt;
+                    &lt;tbody&gt;
+                        &lt;tr&gt;
+                            &lt;td style=&quot;padding: 8px 5px;&quot;&gt;
+                                &lt;a href=&quot;https://www.facebook.com/1010Wilshire/&quot;&gt;
+                                    &lt;img src=&quot;https://www.1010wilshire.com/email/facebook_original_black.png&quot;
+                                        alt=&quot;&quot; style=&quot;height: 24px !important;&quot;&gt;
+                                &lt;/a&gt;
+                            &lt;/td&gt;
+                            &lt;td style=&quot;padding: 8px 5px;&quot;&gt;
+                                &lt;a href=&quot;https://www.linkedin.com/feed/&quot;&gt;
+                                    &lt;img src=&quot;https://www.1010wilshire.com/email/linkedin_original_black.png&quot;
+                                        alt=&quot;&quot; style=&quot;height: 24px !important;&quot;&gt;
+                                &lt;/a&gt;
+                            &lt;/td&gt;
+                            &lt;td style=&quot;padding: 8px 5px;&quot;&gt;
+                                &lt;a href=&quot;https://twitter.com/TenTenDowntown&quot;&gt;
+                                    &lt;img src=&quot;https://www.1010wilshire.com/email/twitter_original_black.png&quot;
+                                        alt=&quot;&quot; style=&quot;height: 24px !important;&quot;&gt;
+                                &lt;/a&gt;
+                            &lt;/td&gt;
+                            &lt;td style=&quot;padding: 8px 5px;&quot;&gt;
+                                &lt;a href=&quot;https://www.instagram.com/tentenwilshire/?hl=en&quot;&gt;
+                                    &lt;img src=&quot;https://www.1010wilshire.com/email/instagram_original_black.png&quot;
+                                        alt=&quot;&quot; style=&quot;height: 24px !important;&quot;&gt;
+                                &lt;/a&gt;
+                            &lt;/td&gt;
+                        &lt;/tr&gt;
+                    &lt;/tbody&gt;
+                &lt;/table&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&quot;text-align: center; line-height: 135%; padding: 10px 20px 30px 20px;&quot;&gt;
+                &lt;p style=&quot;
+                    font-family: Arial, sans-serif;
+                    font-size: 12px;
+                    font-weight: normal;
+                    text-decoration: none;
+                    font-style: normal;
+                    color: #23496d;
+                    margin: 0;&quot;&gt;
+                    TenTen Wilshire &amp; Downtown, 1010 &amp; 1027 Wilshire Blvd, Los Angeles, CA 90017, USA, (877) 338-1010
+                &lt;/p&gt;
+                &lt;p style=&quot;margin: 0;&quot;&gt;
+                    &lt;a href=&quot;&quot; style=&quot;
+                    font-family: Helvetica,Arial,sans-serif;
+                    font-size: 12px;
+                    color: #00a4bd;
+                    font-weight: normal;
+                    text-decoration: underline;
+                    font-style: normal;
+                        &quot;&gt;
+                        Unsubscribe
+                    &lt;/a&gt;
+                    &lt;a href=&quot;&quot; style=&quot;
+                    font-family: Helvetica,Arial,sans-serif;
+                    font-size: 12px;
+                    color: #00a4bd;
+                    font-weight: normal;
+                    text-decoration: underline;
+                    font-style: normal;
+                        &quot;&gt;
+                        Manage preferences
+                    &lt;/a&gt;
+                &lt;/p&gt;
+
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/table&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;</text>
+    </textTemplates>
+    <textTemplates>
+        <name>WilshireEmail02</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+    &lt;title&gt;Greetings from TENTEN Wilshire, Neighbor!&lt;/title&gt;
+    &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; hs-webfonts=&quot;true&quot;
+        href=&quot;https://fonts.googleapis.com/css?family=Lato|Lato:i,b,bi&quot;&gt;
+&lt;/head&gt;
+
+&lt;body style=&quot;margin: 0; display: flex; justify-content: center;&quot;&gt;
+    &lt;table style=&quot; width: 600px; border-spacing: 0; margin-top: 30px;&quot;&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;a href=&quot;https://1010wilshire.com/&quot;&gt;
+                    &lt;img src=&quot;https://www.1010wilshire.com/email/Header.jpg&quot; alt=&quot;&quot;
+                        style=&quot;width: 100%;&quot;&gt;
+                &lt;/a&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&quot;
+                padding: 10px 20px;
+                border-collapse: collapse;
+                font-family: Lato, Tahoma, sans-serif;
+                word-break: break-word;
+                line-height: 175%;
+                font-size: 15px;&quot;&gt;
+                &lt;p style=&quot;font-weight: bold; margin: 0; margin-bottom: 26.5px;&quot;&gt;
+                    Hello Neighbor!
+                &lt;/p&gt;
+                &lt;p style=&quot;font-weight: bold; margin: 0; margin-bottom: 26.5px;&quot;&gt;
+                    I&apos;m super excited about your interest in TENTEN Wilshire.
+                &lt;/p&gt;
+                &lt;p style=&quot;margin: 0;&quot;&gt;
+                    I’m sending you this email to introduce myself and let you know that I’ll be there every step of the
+                    way to make your stay with us…
+                &lt;/p&gt;
+                &lt;p style=&quot;font-size: 20px; line-height: 175%; font-weight: bold; text-align: center;&quot;&gt;
+                    UN...
+                &lt;/p&gt;
+                &lt;img src=&quot;https://www.1010wilshire.com/email/wait-for-it-barney-stinson.gif&quot; alt=&quot;&quot; style=&quot;width: 300px; display: block; margin: 0 auto;&quot;&gt;
+                &lt;p style=&quot;font-size: 20px; line-height: 175%; font-weight: bold; text-align: center;&quot;&gt;
+                    ...BELIEVABLE!
+                &lt;/p&gt;
+                &lt;p style=&quot;margin: 0;&quot;&gt;
+                    My name is {!UserEmailOwnerRecordToUse.MasterLabel} and I’ll be your dedicated relationship manager.
+                &lt;/p&gt;
+                &lt;p style=&quot;margin: 0;&quot;&gt;
+
+                    You can turn to me whenever you have any questions, need assistance scheduling a property tour or
+                    you need advice picking the best place for your needs.
+                &lt;/p&gt;
+
+                &lt;p style=&quot;margin: 0;&quot;&gt;
+                    Just send me a quick email at &lt;a href=&quot;mailto:{!UserEmailOwnerRecordToUse.Email__c}&quot;&gt;{!UserEmailOwnerRecordToUse.Email__c}&lt;/a&gt; or give me a call at {!UserEmailOwnerRecordToUse.Phone_Number__c}.
+                &lt;/p&gt;
+                &lt;p style=&quot;margin: 0;&quot;&gt;
+                    Or if you want to come right over and check out our one-of-a-kind work, live &amp; play ecosystem you can do that by simply clicking the button below.
+                &lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&quot;display: flex; justify-content: center;&quot;&gt;
+                &lt;a style=&quot;
+                    	background: #F4C352;
+	                    color: #FFFFFF;
+	                    border: none;
+	                    padding: 12px 18px;
+	                    font: inherit;
+	                    cursor: pointer;
+	                    outline: inherit;
+                        display: inline-block;
+                        margin: 0 auto;
+                        text-decoration: none;
+                &quot;
+                href=&quot;https://1010.to/tour&quot;&gt;
+                    Schedule Tour
+                &lt;/a&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&quot;
+            padding: 10px 20px;
+            border-collapse: collapse;
+            font-family: Lato, Tahoma, sans-serif;
+            word-break: break-word;
+            line-height: 175%;
+            font-size: 15px;&quot;&gt;
+
+                &lt;h2&gt;
+                    What makes us the best choice &lt;br&gt;for you?
+                &lt;/h2&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;table style=&quot;margin: 0; display: flex; justify-content: center;&quot;&gt;
+                    &lt;tr style=&quot;vertical-align: top;&quot;&gt;
+                        &lt;td style=&quot;
+                        padding: 10px 20px;
+                        border-collapse: collapse;
+                        font-family: Lato, Tahoma, sans-serif;
+                        word-break: break-word;
+                        line-height: 175%;
+                        font-size: 15px;&quot;&gt;
+                            &lt;p style=&quot;margin: 0; margin-bottom: 26.25px;&quot;&gt;
+                                During our tour I’ll take you around and show you…  
+                            &lt;/p&gt;
+                            &lt;p style=&quot;margin: 0; margin-bottom: 26.25px;&quot;&gt;
+                                1) Our luxuriously furnished, all-inclusive, move-in ready, live/work suites, which come with everything included: in-unit laundry machines, linens, premium cable, high-speed internet, local phone service, water, gas, and electricity! 
+                            &lt;/p&gt;
+                            &lt;p style=&quot;margin: 0; margin-bottom: 26.25px;&quot;&gt;
+                                2) TENTEN’s 5-star, resort-inspired and Instagram-worthy amenities such as our award-winning rooftop with a pool and panoramic views of DTLA, Hollywood and the ocean, 24h Gym, Full-Service Spa, Lounge area, on-sire bar, barbecue, and more! 
+                            &lt;/p&gt;
+                            &lt;p style=&quot;margin: 0; margin-bottom: 26.25px;&quot;&gt;
+                                3) Our unparalleled conference rooms, board rooms, event spaces, lobby business directory, and feature-rich business center. 
+                            &lt;/p&gt;
+                            &lt;p style=&quot;margin: 0; margin-bottom: 26.25px;&quot;&gt;
+                                4) The 24-hour valet, garage parking, and courtesy patrol which make your stay here convenient and safe. 
+                            &lt;/p&gt;
+                            &lt;p style=&quot;margin: 0; margin-bottom: 26.25px;&quot;&gt;
+                                5) And our small “perks” like open-air billiards, foosball, ping pong tables, and barbecue area there to make your “Live, Work &amp; Play” experience unforgettable. 
+                            &lt;/p&gt;
+                            &lt;p style=&quot;margin: 0; margin-bottom: 26.25px;&quot;&gt;
+                                You get all of this situated at a majestic high-rise at the perfect center of Los Angeles and surrounded by world-class stores, Michelin star restaurants and one-of-a-kind beaches…
+                            &lt;/p&gt;
+                            &lt;p style=&quot;margin: 0; margin-bottom: 26.25px;&quot;&gt;
+                                Everything above is included in our simplified monthly prices starting at… 
+                            &lt;/p&gt;
+
+                            &lt;ul style=&quot;font-weight: bold; line-height: 200%;&quot;&gt;
+                                &lt;li&gt;Studios - $3,119&lt;/li&gt;
+                                &lt;li&gt;1 Bedroom Suites - $3,463&lt;/li&gt;
+                                &lt;li&gt;2 Bedroom Suites - $3,965&lt;/li&gt;
+                                &lt;li&gt;Two Story Lofts - $5,140&lt;/li&gt;
+                                &lt;li&gt;3 Bedroom Suites - $5,470&lt;/li&gt;
+                            &lt;/ul&gt;
+                        &lt;/td&gt;
+                        &lt;td&gt;
+                            &lt;table style=&quot;width: 200px;&quot;&gt;
+                                &lt;tbody&gt;
+                                    &lt;tr&gt;
+                                        &lt;td style=&quot;padding: 10px 20px;&quot;&gt;
+                                            &lt;img src=&quot;https://www.1010wilshire.com/email/untitled-42.jpg&quot; alt=&quot;&quot; style=&quot;width: 100%;&quot;&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td style=&quot;padding: 10px 20px;&quot;&gt;
+                                            &lt;img src=&quot;https://www.1010wilshire.com/email/executiveplus2or3.jpg&quot; alt=&quot;&quot; style=&quot;width: 100%;&quot;&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td style=&quot;padding: 10px 20px;&quot;&gt;
+                                            &lt;img src=&quot;https://www.1010wilshire.com/email/GPF_5517 (1).jpg&quot; alt=&quot;&quot; style=&quot;width: 100%;&quot;&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    
+                                    
+                                    
+                                    &lt;tr&gt;
+                                        &lt;td style=&quot;padding: 10px 20px;&quot;&gt;
+                                            &lt;img src=&quot;https://www.1010wilshire.com/email/GPF_5540.jpg&quot; alt=&quot;&quot; style=&quot;width: 100%;&quot;&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td style=&quot;padding: 10px 20px;&quot;&gt;
+                                            &lt;img src=&quot;https://www.1010wilshire.com/email/untitled-41-2.jpg&quot; alt=&quot;&quot; style=&quot;width: 100%;&quot;&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                &lt;/tbody&gt;
+                            &lt;/table&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/table&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&quot;text-align: center; font-family: Lato, Tahoma, sans-serif;&quot;&gt;
+                &lt;h2 style=&quot;line-height: 175%; font-size: 20px; margin: 0;&quot;&gt;
+                    Want to experience the luxury and comfort &lt;br&gt;TENTEN Wilshire provides?  
+                &lt;/h2&gt;
+                &lt;h2 style=&quot;line-height: 175%; font-size: 20px; margin: 0;&quot;&gt;
+                    Then click the button below and schedule your &lt;br&gt;FREE tour now! 
+                &lt;/h2&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&quot;display: flex; justify-content: center; padding: 10px 20px;&quot;&gt;
+                &lt;a style=&quot;
+                    	background: #F4C352;
+	                    color: #FFFFFF;
+	                    border: none;
+	                    padding: 12px 18px;
+	                    font: inherit;
+	                    cursor: pointer;
+	                    outline: inherit;
+                        display: inline-block;
+                        margin: 0 auto;
+                        text-decoration: none;
+                &quot;
+                href=&quot;https://1010.to/tour&quot;&gt;
+                    Schedule Tour
+                &lt;/a&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&quot;
+                text-align: center;
+                font-family: Lato, Tahoma, sans-serif;
+                line-height: 175%;
+                font-size: 15px;
+                padding: 10px 20px;&quot;&gt;
+                &lt;p style=&quot;margin: 0;&quot;&gt;
+                    {!UserEmailOwnerRecordToUse.MasterLabel} from TENTEN Wilshire
+                &lt;/p&gt;
+                &lt;p style=&quot;margin: 0;&quot;&gt;
+                    &lt;span style=&quot;font-weight: bold;&quot;&gt;P.S.&lt;/span&gt; Oh, and did I mention that we also host multi-billion-dollar startups and world-famous actors?
+                &lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&quot;border-top: 1pt solid #333333; padding: 10px 20px;&quot;&gt;
+                &lt;img src=&quot;https://www.1010wilshire.com/email/untitled-3-1.png&quot; alt=&quot;&quot; style=&quot;width: 100%;&quot;&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr align=&quot;center&quot;&gt;
+            &lt;td&gt;
+                &lt;table style=&quot;border-spacing: 0 !important; border-collapse: collapse;&quot;&gt;
+                    &lt;tbody&gt;
+                        &lt;tr&gt;
+                            &lt;td style=&quot;padding: 8px 5px;&quot;&gt;
+                                &lt;a href=&quot;https://www.facebook.com/1010Wilshire/&quot;&gt;
+                                    &lt;img src=&quot;https://www.1010wilshire.com/email/facebook_original_black.png&quot;
+                                        alt=&quot;&quot; style=&quot;height: 24px !important;&quot;&gt;
+                                &lt;/a&gt;
+                            &lt;/td&gt;
+                            &lt;td style=&quot;padding: 8px 5px;&quot;&gt;
+                                &lt;a href=&quot;https://www.linkedin.com/feed/&quot;&gt;
+                                    &lt;img src=&quot;https://www.1010wilshire.com/email/linkedin_original_black.png&quot;
+                                        alt=&quot;&quot; style=&quot;height: 24px !important;&quot;&gt;
+                                &lt;/a&gt;
+                            &lt;/td&gt;
+                            &lt;td style=&quot;padding: 8px 5px;&quot;&gt;
+                                &lt;a href=&quot;https://twitter.com/TenTenDowntown&quot;&gt;
+                                    &lt;img src=&quot;https://www.1010wilshire.com/email/twitter_original_black.png&quot;
+                                        alt=&quot;&quot; style=&quot;height: 24px !important;&quot;&gt;
+                                &lt;/a&gt;
+                            &lt;/td&gt;
+                            &lt;td style=&quot;padding: 8px 5px;&quot;&gt;
+                                &lt;a href=&quot;https://www.instagram.com/tentenwilshire/?hl=en&quot;&gt;
+                                    &lt;img src=&quot;https://www.1010wilshire.com/email/instagram_original_black.png&quot;
+                                        alt=&quot;&quot; style=&quot;height: 24px !important;&quot;&gt;
+                                &lt;/a&gt;
+                            &lt;/td&gt;
+                        &lt;/tr&gt;
+                    &lt;/tbody&gt;
+                &lt;/table&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&quot;text-align: center; line-height: 135%; padding: 10px 20px 30px 20px;&quot;&gt;
+                &lt;p style=&quot;
+                    font-family: Arial, sans-serif;
+                    font-size: 12px;
+                    font-weight: normal;
+                    text-decoration: none;
+                    font-style: normal;
+                    color: #23496d;
+                    margin: 0;&quot;&gt;
+                    TenTen Wilshire &amp; Downtown, 1010 &amp; 1027 Wilshire Blvd, Los Angeles, CA 90017, USA, (877) 338-1010
+                &lt;/p&gt;
+                &lt;p style=&quot;margin: 0;&quot;&gt;
+                    &lt;a href=&quot;&quot; style=&quot;
+                    font-family: Helvetica,Arial,sans-serif;
+                    font-size: 12px;
+                    color: #00a4bd;
+                    font-weight: normal;
+                    text-decoration: underline;
+                    font-style: normal;
+                        &quot;&gt;
+                        Unsubscribe
+                    &lt;/a&gt;
+                    &lt;a href=&quot;&quot; style=&quot;
+                    font-family: Helvetica,Arial,sans-serif;
+                    font-size: 12px;
+                    color: #00a4bd;
+                    font-weight: normal;
+                    text-decoration: underline;
+                    font-style: normal;
+                        &quot;&gt;
+                        Manage preferences
+                    &lt;/a&gt;
+                &lt;/p&gt;
+
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/table&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;</text>
+    </textTemplates>
+    <textTemplates>
+        <name>WilshireEmail03</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+    &lt;title&gt;We&apos;re Still Thinking About You&lt;/title&gt;
+    &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; hs-webfonts=&quot;true&quot;
+        href=&quot;https://fonts.googleapis.com/css?family=Lato|Lato:i,b,bi&quot;&gt;
+&lt;/head&gt;
+
+&lt;body style=&quot;margin: 0; display: flex; justify-content: center;&quot;&gt;
+    &lt;table style=&quot; width: 600px; border-spacing: 0; margin-top: 30px;&quot;&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;a href=&quot;https://1010wilshire.com/&quot;&gt;
+                    &lt;img src=&quot;https://www.1010wilshire.com/email/Header.jpg&quot; alt=&quot;&quot; style=&quot;width: 100%;&quot;&gt;
+                &lt;/a&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&quot;
+                padding: 10px 20px;
+                border-collapse: collapse;
+                font-family: Lato, Tahoma, sans-serif;
+                word-break: break-word;
+                line-height: 175%;
+                font-size: 15px;&quot;&gt;
+                &lt;p style=&quot;font-weight: bold; margin: 0; margin-bottom: 26.5px;&quot;&gt;
+                    Hey Neighbor,
+                &lt;/p&gt;
+                &lt;p style=&quot;font-weight: bold; margin: 0;&quot;&gt;
+                    This is {!UserEmailOwnerRecordToUse.MasterLabel} from TENTEN Wilshire.
+                &lt;/p&gt;
+                &lt;p style=&quot;margin: 0;&quot;&gt;
+                    Havent talked to you in a while…
+                &lt;/p&gt;
+                &lt;p style=&quot;margin: 0;&quot;&gt;
+                    Just wanted to follow up and see if you found the right type of place to stay in DTLA?
+                &lt;/p&gt;
+                &lt;p style=&quot;margin: 0;&quot;&gt;
+                    I&apos;m asking because I though you&apos;d be a perfect fit for our live, work &amp; play community.
+                &lt;/p&gt;
+                &lt;p style=&quot;margin: 0;&quot;&gt;
+                    If you&apos;ve found something, then great!
+                &lt;/p&gt;
+                &lt;p style=&quot;margin: 0;&quot;&gt;
+                    But if you&apos;re still searching or you&apos;re not super happy with your current residence, I wanted to
+                    remind you that you&apos;re always welcome here!
+                &lt;/p&gt;
+                &lt;p style=&quot;font-size: 22px; line-height: 175%; font-weight: bold; text-align: center;&quot;&gt;
+                    We&apos;ve introduced a few new and special offers since we last spoke.
+                &lt;/p&gt;
+                &lt;p style=&quot;font-weight: bold; line-height: 200%; text-align: center;&quot;&gt;
+                    Studios - $3,119&lt;br&gt;
+                    1 Bedroom Suites - $3,463&lt;br&gt;
+                    2 Bedroom Suites - $3,965&lt;br&gt;
+                    Two Story Lofts - $5,140&lt;br&gt;
+                    3 Bedroom Suites - $5,470
+                &lt;/p&gt;
+                &lt;p style=&quot;margin: 0; text-align: center;&quot;&gt;
+                    Sounds interesting? 
+                &lt;/p&gt;
+                &lt;p style=&quot;margin: 0; text-align: center;&quot;&gt;
+                    Then just shoot me a quick email and I&apos;ll tell you more. 
+                &lt;/p&gt;
+                &lt;p style=&quot;margin: 0; text-align: center;&quot;&gt;
+                    Or you can simply &lt;a href=&quot;https://1010.to/tour&quot; style=&quot;color: #00a4bd;&quot;&gt;schedule a free tour&lt;/a&gt; and see why so many tech people, actors, musicians and entrepreneurs are choosing TENTEN Wilshire over any other type of accommodation. 
+                &lt;/p&gt;
+                &lt;p style=&quot;margin: 0; text-align: center;&quot;&gt;
+                    Cheers!
+                &lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&quot;
+                text-align: center;
+                font-family: Lato, Tahoma, sans-serif;
+                line-height: 175%;
+                font-size: 15px;
+                padding: 10px 30px;&quot;&gt;
+                &lt;p style=&quot;margin: 0;&quot;&gt;
+                    {!UserEmailOwnerRecordToUse.MasterLabel} from TENTEN Wilshire
+                &lt;/p&gt;
+                &lt;p style=&quot;margin: 0;&quot;&gt;
+                    &lt;span style=&quot;font-weight: bold;&quot;&gt;P.S.&lt;/span&gt; Did I mention that we organize regular events at our amazing rooftop?
+                &lt;/p&gt;
+                &lt;p style=&quot;margin: 0;&quot;&gt;
+                    As a member of TENTEN Wilshire, you&apos;ll be invited to ALL of them, which makes socializing that much easier when staying with us. 
+                &lt;/p&gt;
+                &lt;p style=&quot;margin: 0; margin-bottom: 26.5px;&quot;&gt;
+                    Here&apos;s a quick video from one of our &lt;a href=&quot;https://&quot; style=&quot;color: #00a4bd;&quot;&gt;recent events&lt;/a&gt;.
+                &lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&quot;border-top: 1pt solid #333333; padding: 10px 20px;&quot;&gt;
+                &lt;img src=&quot;https://www.1010wilshire.com/email/Rooftop1010.png&quot; alt=&quot;&quot; style=&quot;width: 100%;&quot;&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr align=&quot;center&quot;&gt;
+            &lt;td&gt;
+                &lt;table style=&quot;border-spacing: 0 !important; border-collapse: collapse;&quot;&gt;
+                    &lt;tbody&gt;
+                        &lt;tr&gt;
+                            &lt;td style=&quot;padding: 8px 5px;&quot;&gt;
+                                &lt;a href=&quot;https://www.facebook.com/1010Wilshire/&quot;&gt;
+                                    &lt;img src=&quot;https://www.1010wilshire.com/email/facebook_original_black.png&quot;
+                                        alt=&quot;&quot; style=&quot;height: 24px !important;&quot;&gt;
+                                &lt;/a&gt;
+                            &lt;/td&gt;
+                            &lt;td style=&quot;padding: 8px 5px;&quot;&gt;
+                                &lt;a href=&quot;https://www.linkedin.com/feed/&quot;&gt;
+                                    &lt;img src=&quot;https://www.1010wilshire.com/email/linkedin_original_black.png&quot;
+                                        alt=&quot;&quot; style=&quot;height: 24px !important;&quot;&gt;
+                                &lt;/a&gt;
+                            &lt;/td&gt;
+                            &lt;td style=&quot;padding: 8px 5px;&quot;&gt;
+                                &lt;a href=&quot;https://twitter.com/TenTenDowntown&quot;&gt;
+                                    &lt;img src=&quot;https://www.1010wilshire.com/email/twitter_original_black.png&quot;
+                                        alt=&quot;&quot; style=&quot;height: 24px !important;&quot;&gt;
+                                &lt;/a&gt;
+                            &lt;/td&gt;
+                            &lt;td style=&quot;padding: 8px 5px;&quot;&gt;
+                                &lt;a href=&quot;https://www.instagram.com/tentenwilshire/?hl=en&quot;&gt;
+                                    &lt;img src=&quot;https://www.1010wilshire.com/email/instagram_original_black.png&quot;
+                                        alt=&quot;&quot; style=&quot;height: 24px !important;&quot;&gt;
+                                &lt;/a&gt;
+                            &lt;/td&gt;
+                        &lt;/tr&gt;
+                    &lt;/tbody&gt;
+                &lt;/table&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&quot;text-align: center; line-height: 135%; padding: 10px 20px 30px 20px;&quot;&gt;
+                &lt;p style=&quot;
+                    font-family: Arial, sans-serif;
+                    font-size: 12px;
+                    font-weight: normal;
+                    text-decoration: none;
+                    font-style: normal;
+                    color: #23496d;
+                    margin: 0;&quot;&gt;
+                    TenTen Wilshire &amp; Downtown, 1010 &amp; 1027 Wilshire Blvd, Los Angeles, CA 90017, USA, (877) 338-1010
+                &lt;/p&gt;
+                &lt;p style=&quot;margin: 0;&quot;&gt;
+                    &lt;a href=&quot;&quot; style=&quot;
+                    font-family: Helvetica,Arial,sans-serif;
+                    font-size: 12px;
+                    color: #00a4bd;
+                    font-weight: normal;
+                    text-decoration: underline;
+                    font-style: normal;
+                        &quot;&gt;
+                        Unsubscribe
+                    &lt;/a&gt;
+                    &lt;a href=&quot;&quot; style=&quot;
+                    font-family: Helvetica,Arial,sans-serif;
+                    font-size: 12px;
+                    color: #00a4bd;
+                    font-weight: normal;
+                    text-decoration: underline;
+                    font-style: normal;
+                        &quot;&gt;
+                        Manage preferences
+                    &lt;/a&gt;
+                &lt;/p&gt;
+
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/table&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;</text>
+    </textTemplates>
+    <textTemplates>
+        <name>WilshireEmail04</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+    &lt;title&gt;got my emails?&lt;/title&gt;
+    &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; hs-webfonts=&quot;true&quot;
+        href=&quot;https://fonts.googleapis.com/css?family=Lato|Lato:i,b,bi&quot;&gt;
+&lt;/head&gt;
+
+&lt;body style=&quot;margin: 0; display: flex; justify-content: center;&quot;&gt;
+    &lt;table style=&quot; width: 600px; border-spacing: 0; margin-top: 30px;&quot;&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;a href=&quot;https://1010wilshire.com/&quot;&gt;
+                    &lt;img src=&quot;https://www.1010wilshire.com/email/Header.jpg&quot; alt=&quot;&quot;
+                        style=&quot;width: 100%;&quot;&gt;
+                &lt;/a&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&quot;
+                padding: 10px 20px;
+                border-collapse: collapse;
+                font-family: Lato, Tahoma, sans-serif;
+                word-break: break-word;
+                line-height: 175%;
+                font-size: 15px;&quot;&gt;
+                &lt;p style=&quot;font-weight: bold; margin: 0; margin-bottom: 26.5px;&quot;&gt;
+                    Hey Neighbor,
+                &lt;/p&gt;
+                &lt;p style=&quot;font-weight: bold; margin: 0;&quot;&gt;
+                    This is {!UserEmailOwnerRecordToUse.MasterLabel} from TENTEN Wilshire.
+                &lt;/p&gt;
+                &lt;p style=&quot;margin: 0;&quot;&gt;
+                    I just wanted to know if you got my previous e-mails? 
+                &lt;/p&gt;
+                &lt;p style=&quot;margin: 0;&quot;&gt;
+                    I’m asking because I haven’t heard from you in a while.
+                &lt;/p&gt;
+                &lt;p style=&quot;margin: 0;&quot;&gt;
+                    Is it because…
+                &lt;/p&gt;
+                &lt;ol style=&quot;line-height: 175%;&quot;&gt;
+                    &lt;li&gt;You have some questions or hesitations regarding staying in our one-of-a-kind live, work and play community?  &lt;/li&gt;
+                    &lt;li&gt;You think what we offer is far more than what you need for your stay here in Los Angeles? &lt;/li&gt;
+                    &lt;li&gt;You’ve just found something that suits your needs better? &lt;/li&gt;
+                &lt;/ol&gt;
+                &lt;p style=&quot;margin: 0;&quot;&gt;
+                    Please reply to this email with a short answer, so I can give you the information you need or stop sending you emails. 
+                &lt;/p&gt;
+                &lt;p style=&quot;margin: 0;&quot;&gt;
+                    Thank you!
+                &lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&quot;
+                text-align: left;
+                font-family: Lato, Tahoma, sans-serif;
+                line-height: 175%;
+                font-size: 15px;
+                padding: 10px 20px;&quot;&gt;
+                &lt;p style=&quot;margin: 0;&quot;&gt;
+                    {!UserEmailOwnerRecordToUse.MasterLabel} from TENTEN Wilshire
+                &lt;/p&gt;
+                &lt;p style=&quot;margin: 0;&quot;&gt;
+                    &lt;span style=&quot;font-weight: bold;&quot;&gt;P.S.&lt;/span&gt; If you were just postponing your stay with us, you can easily schedule a free tour by &lt;a href=&quot;https://1010.to/tour&quot; style=&quot;color: #00a4bd;&quot;&gt;CLICKING HERE&lt;/a&gt;!
+                &lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&quot;border-top: 1pt solid #333333; padding: 10px 20px;&quot;&gt;
+                &lt;img src=&quot;https://www.1010wilshire.com/email/Rooftop1010.png&quot; alt=&quot;&quot; style=&quot;width: 100%;&quot;&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr align=&quot;center&quot;&gt;
+            &lt;td&gt;
+                &lt;table style=&quot;border-spacing: 0 !important; border-collapse: collapse;&quot;&gt;
+                    &lt;tbody&gt;
+                        &lt;tr&gt;
+                            &lt;td style=&quot;padding: 8px 5px;&quot;&gt;
+                                &lt;a href=&quot;https://www.facebook.com/1010Wilshire/&quot;&gt;
+                                    &lt;img src=&quot;https://www.1010wilshire.com/email/facebook_original_black.png&quot;
+                                        alt=&quot;&quot; style=&quot;height: 24px !important;&quot;&gt;
+                                &lt;/a&gt;
+                            &lt;/td&gt;
+                            &lt;td style=&quot;padding: 8px 5px;&quot;&gt;
+                                &lt;a href=&quot;https://www.linkedin.com/feed/&quot;&gt;
+                                    &lt;img src=&quot;https://www.1010wilshire.com/email/linkedin_original_black.png&quot;
+                                        alt=&quot;&quot; style=&quot;height: 24px !important;&quot;&gt;
+                                &lt;/a&gt;
+                            &lt;/td&gt;
+                            &lt;td style=&quot;padding: 8px 5px;&quot;&gt;
+                                &lt;a href=&quot;https://twitter.com/TenTenDowntown&quot;&gt;
+                                    &lt;img src=&quot;https://www.1010wilshire.com/email/twitter_original_black.png&quot;
+                                        alt=&quot;&quot; style=&quot;height: 24px !important;&quot;&gt;
+                                &lt;/a&gt;
+                            &lt;/td&gt;
+                            &lt;td style=&quot;padding: 8px 5px;&quot;&gt;
+                                &lt;a href=&quot;https://www.instagram.com/tentenwilshire/?hl=en&quot;&gt;
+                                    &lt;img src=&quot;https://www.1010wilshire.com/email/instagram_original_black.png&quot;
+                                        alt=&quot;&quot; style=&quot;height: 24px !important;&quot;&gt;
+                                &lt;/a&gt;
+                            &lt;/td&gt;
+                        &lt;/tr&gt;
+                    &lt;/tbody&gt;
+                &lt;/table&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&quot;text-align: center; line-height: 135%; padding: 10px 20px 30px 20px;&quot;&gt;
+                &lt;p style=&quot;
+                    font-family: Arial, sans-serif;
+                    font-size: 12px;
+                    font-weight: normal;
+                    text-decoration: none;
+                    font-style: normal;
+                    color: #23496d;
+                    margin: 0;&quot;&gt;
+                    TenTen Wilshire &amp; Downtown, 1010 &amp; 1027 Wilshire Blvd, Los Angeles, CA 90017, USA, (877) 338-1010
+                &lt;/p&gt;
+                &lt;p style=&quot;margin: 0;&quot;&gt;
+                    &lt;a href=&quot;&quot; style=&quot;
+                    font-family: Helvetica,Arial,sans-serif;
+                    font-size: 12px;
+                    color: #00a4bd;
+                    font-weight: normal;
+                    text-decoration: underline;
+                    font-style: normal;
+                        &quot;&gt;
+                        Unsubscribe
+                    &lt;/a&gt;
+                    &lt;a href=&quot;&quot; style=&quot;
+                    font-family: Helvetica,Arial,sans-serif;
+                    font-size: 12px;
+                    color: #00a4bd;
+                    font-weight: normal;
+                    text-decoration: underline;
+                    font-style: normal;
+                        &quot;&gt;
+                        Manage preferences
+                    &lt;/a&gt;
+                &lt;/p&gt;
+
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/table&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;</text>
+    </textTemplates>
+    <variables>
+        <name>currentItem_Get_User_Owner_Details</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>User_Email_Owner__mdt</objectType>
+    </variables>
+    <variables>
+        <name>EmailCollection</name>
+        <dataType>String</dataType>
+        <isCollection>true</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>UserEmailOwnerRecords</name>
+        <dataType>SObject</dataType>
+        <isCollection>true</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>User_Email_Owner__mdt</objectType>
+    </variables>
+    <variables>
+        <name>UserEmailOwnerRecordToUse</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>User_Email_Owner__mdt</objectType>
+    </variables>
+</Flow>
