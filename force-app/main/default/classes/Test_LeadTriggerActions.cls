@@ -8,8 +8,8 @@ public without sharing class Test_LeadTriggerActions {
         User testUser = new User();
         testUser.LastName = 'Milton';
         testUser.Alias = 'miltest';
-        testUser.Username = 'testusertenten@testuser.com';
-        testUser.Email = 'testusertenten@testuser.com';
+        testUser.Username = 'salesforcehouse3@tententestgmail.com';
+        testUser.Email = 'salesforcehouse3@gmail.com';
         testUser.TimeZoneSidKey = 'GMT';
         testUser.LocaleSidKey = 'en_US';
         testUser.EmailEncodingKey = 'UTF-8';
@@ -20,8 +20,8 @@ public without sharing class Test_LeadTriggerActions {
         User testUser2 = new User();
         testUser2.LastName = 'Adriana';
         testUser2.Alias = 'adrtest';
-        testUser2.Username = 'testuser2tenten@testuser2.com';
-        testUser2.Email = 'testuser2tenten@testuser2.com';
+        testUser2.Username = 'rikanelafutbol@tententesthotmail.com';
+        testUser2.Email = 'rikanelafutbol@hotmail.com';
         testUser2.TimeZoneSidKey = 'GMT';
         testUser2.LocaleSidKey = 'en_US';
         testUser2.EmailEncodingKey = 'UTF-8';
